@@ -6,7 +6,6 @@ const ReasonBusiness = ({ greenTitle, whiteTitle, heading1, paragraph1, heading2
       <div className="bg-[#151515] grid grid-cols-3 sm:grid sm:grid-cols-1 md:grid md:grid-cols-1 border-t border-[#FFF] font-montserrat">
         <div className="pl-24 sm:pl-0 border-r sm:border-0 border-[#BDBDBD] py-24 sm:pb-14">
           <h6 className="text-[85px] text-white font-bold leading-none sm:text-[45px] sm:text-center lg:text-[60px] md:text-[45px] lg:ml-[-50px] sm:items-center md:text-center">{greenTitle}</h6>
-          {/* <h6 className="text-[85px] text-white font-bold max-w-[400px] leading-none sm:text-[45px] lg:text-[60px] sm:text-end lg:ml-[-50px] md:text-center">{greenTitle}</h6> */}
         </div>
         <div className="border-r sm:border-0 border-[#BDBDBD]">
           <div className="border-b border-[#BDBDBD] px-10 py-20 sm:pt-0">
