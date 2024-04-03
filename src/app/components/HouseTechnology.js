@@ -16,7 +16,7 @@ const HouseTechnology = () => {
             <p className="sm:text-[40px] lg:text-[85px] sm:text-center sm:mt-[40px] mt-[60px] sm:ml-[15px] md:text-[50px] text-[85px] text-white font-bold leading-none">
               In House Technology
             </p>
-            <p className="sm:text-[20px] lg:text-[17px] sm:text-center text-2xl sm:ml-[15px] text-white mt-11">
+            <p className="sm:text-[16px] lg:text-[17px] sm:text-center text-2xl sm:ml-[15px] text-white mt-11">
               Choose Expobird as your digital marketing agency and propel your
               business to new heights with our award-winning digital marketing
               services and proprietary technology platform.
@@ -47,7 +47,7 @@ const HouseTechnology = () => {
               <p className=" sm:text-[30px] mt-[40px] lg:text-[60px] sm:text-center text-[80px] text-white font-bold leading-none">
                 In House Technology
               </p>
-              <p className="sm:text-[20px] lg:text-[20px] sm:text-center text-2xl text-white mt-11">
+              <p className="sm:text-[16px] lg:text-[20px] sm:text-center text-2xl text-white mt-11">
                 Choose Expobird as your digital marketing agency and propel your
                 business to new heights with our award-winning digital marketing
                 services and proprietary technology platform.
@@ -59,7 +59,7 @@ const HouseTechnology = () => {
               Get Free Seo{" "}
               <span className="underlined-svg relative">Audit</span>
             </p>
-            <p className="sm:text-[20px] lg:text-[20px] text-2xl p-1 text-white text-center">
+            <p className="sm:text-[16px] lg:text-[20px] text-2xl p-1 text-white text-center">
               Choose Expobird as your digital marketing agency and propel your
               business to new heights with our award-winning digital marketing
               services and proprietary technology platform.
@@ -69,7 +69,7 @@ const HouseTechnology = () => {
                 <input
                   type="email"
                   placeholder="Enter your site here"
-                  className="sm:min-w-[300px] lg:min-w-[300px] sm:mb-5 sm:ml-5 rounded-[40px] bg-transparent outline-[#5D6BD9] outline outline-1 border-none py-4 px-9 min-w-[840px] placeholder:text-white placeholder:text-center text-base text-white mr-8"
+                  className="sm:min-w-[200px] sm:mr-0 lg:min-w-[300px] sm:mb-5 sm:ml-0 rounded-[40px] bg-transparent outline-[#5D6BD9] outline outline-1 border-none py-4 px-9 min-w-[840px] placeholder:text-white placeholder:text-center text-base text-white mr-8"
                 />
                 <button className="text-white text-[20px] lg:mt-10 sm:mt-[15px] bg-[#7B41F9] rounded-[70px] py-4 px-6 font-semibold">
                   Get A proposal{" "}

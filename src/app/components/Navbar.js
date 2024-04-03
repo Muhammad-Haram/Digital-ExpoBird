@@ -16,23 +16,25 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="sm:hidden px-24 font-montserrat flex items-center justify-center bg-[#000213] relative">
+      <div className="sm:hidden md:px-8 px-24 font-montserrat flex items-center justify-center bg-[#000213] relative">
         <div className="w-full">
-          <nav className="py-6 w-full flex items-center justify-between md:space-x-10">
+          <nav className="py-6 w-full flex items-center justify-between md:space-x-5">
             <Image src={"/assets/logov2.jpg"} width={150} height={0} alt="pic" />
             <div className="flex items-center">
-              <ul className="flex items-center xl:space-x-4 lg:space-x-6 list-none space-x-10 cursor-pointer">
-              <Link href="/"><li className="text-white mr-4 text-[16px] font-semibold">
-                  Home
-                </li></Link>
-                <li className="text-white mr-4 text-[16px] font-semibold" onClick={toggleMobileMenu}>
+              <ul className="flex items-center xl:space-x-10 lg:space-x-10 list-none space-x-3 cursor-pointer">
+                <Link href="/">
+                  <li className="md:text-[14px] text-white text-[16px] font-semibold">
+                    Home
+                  </li>
+                </Link>
+                <li className="md:text-[14px] text-white text-[16px] font-semibold" onClick={toggleMobileMenu}>
                   Services
                 </li>
 
-                <Link href="/about"><li className="text-white mr-4 text-[16px] font-semibold">
+                <Link href="/about"><li className="md:text-[14px] text-white text-[16px] font-semibold">
                   About Us
                 </li></Link>
-                <Link href="/contact"><li className="text-white mr-4 text-[16px] font-semibold">
+                <Link href="/contact"><li className="md:text-[14px] text-white text-[16px] font-semibold">
                   Contact Us
                 </li></Link>
 
