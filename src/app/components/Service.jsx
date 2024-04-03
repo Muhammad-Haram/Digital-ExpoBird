@@ -45,7 +45,7 @@ const Service = () => {
               </div>
             </div>
 
-            <div className="col-span-6 w-[700px] ml-[100px]">
+            <div className="col-span-6 w-[700px] sm:ml-0 ml-[100px]">
               <div className="pt-[8rem] p-16 md:h-auto md:mb-[100px] lg:h-auto lg:mb-[200px]">
 
                 <div className='flex justify-center'>
@@ -53,7 +53,7 @@ const Service = () => {
                     <Image src="/assets/service-animation-01.png" height={0} width={100} className="py-3" alt="" />
                   </div>
                   <div>
-                    <p className="sm:text-center text-[25px] text-[#252E48] font-bold pl-5 md:text-center" data-inviewport >Mobile App Development</p>
+                    <p className="text-[25px] text-[#252E48] font-bold pl-5 md:text-center" data-inviewport >Mobile App Development</p>
                     <p className="text-[18px] text-[#545F7E] max-w-[70%] pl-5 py-3 md:text-center sm:text-center">We imagine and build experiences and businesses that win hearts and realize the future. Explore how we work.</p>
                     <p className="text-[18px] text-[#252E48] font-medium max-w-[70%] pl-5 py-3 md:text-center">Replaces: Your website subscription
                     </p>
