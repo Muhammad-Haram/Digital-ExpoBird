@@ -1,14 +1,14 @@
 import React from 'react';
 import Image from 'next/image';
 
-const FeatureWork = ({ title }) => {
+const FeatureWork = () => {
   return (
     <>
       <div className="bg-[#000213] font-montserrat overflow-hidden">
         <div className="xl:max-w-[1440px] mx-auto">
           <div className="p-[9rem] sm:p-10">
             <div className="sm:grid-cols-1 md:grid md:grid-cols-1 grid grid-cols-2 items-center">
-              <h6 className="sm:text-[40px] lg:ml-[-20px] sm:text-center sm:mt-10 sm:mb-6 md:text-[60px] sm:space-x-10 text-[80px] text-[#FFFFFF] max-w-[400px]  leading-none font-bold sm:pb-20 pb-24">
+              <h6 className="sm:text-[40px] lg:ml-[-20px] sm:text-center sm:mt-10 sm:mb-6 md:text-[60px] sm:space-x-10 sm:flex sm:items-center sm:m-auto text-[80px] text-[#FFFFFF] max-w-[400px]  leading-none font-bold sm:pb-20 pb-24">
                 Featured works
                 <span>
                   <div className="sm:hidden ml-[0px] sm:right-[45px] right-[25px] sm:mt-[20px] md:ml-12 md:mt-4 ico animated">
@@ -36,7 +36,7 @@ const FeatureWork = ({ title }) => {
                   </div>
                 </span>
               </h6>
-              <p className="sm:-mt-20 sm:text-center sm:text-[20px] text-[25px] text-white max-w-[450px] pb-24">{title}</p>
+              <p className="sm:-mt-20 sm:text-center sm:text-[20px] text-[25px] text-white max-w-[450px] pb-24 sm:flex sm:items-center sm:m-auto">We are a team of design and research experts with over ten years of experience in improving businesses and peoples lives through smart design solutions</p>
             </div>
             <div className="sm:grid sm:grid-cols-2 grid grid-cols-2 gap-8">
               <div className="max-w-[605px]">
