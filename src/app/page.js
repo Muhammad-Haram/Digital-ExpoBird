@@ -12,6 +12,7 @@ import Awards from './components/Awards';
 import Service from './components/Service';
 import Tech from './components/Tech';
 import Footer from './components/Footer';
+import Tab from './components/Tab';
 
 
 const Home = ({ description }) => {
