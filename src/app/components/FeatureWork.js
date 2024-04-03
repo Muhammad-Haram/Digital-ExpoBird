@@ -4,7 +4,7 @@ import Image from 'next/image';
 const FeatureWork = ({ title }) => {
   return (
     <>
-      <div className="bg-[#000213] font-montserrat">
+      <div className="bg-[#000213] font-montserrat overflow-hidden">
         <div className="xl:max-w-[1440px] mx-auto">
           <div className="p-[9rem] sm:p-10">
             <div className="sm:grid-cols-1 md:grid md:grid-cols-1 grid grid-cols-2 items-center">
@@ -73,7 +73,6 @@ const FeatureWork = ({ title }) => {
           </div>
         </div>
       </div>
-
     </>
   )
 }

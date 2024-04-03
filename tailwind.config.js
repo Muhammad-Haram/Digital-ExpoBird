@@ -23,7 +23,6 @@ module.exports = {
 
       'xl': { 'min': '1280px', 'max': '1350px' },
 
-
       '2xl': { 'min': '1536px' },
     },
     fontFamily: {
