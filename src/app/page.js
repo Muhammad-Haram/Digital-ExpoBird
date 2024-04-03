@@ -40,6 +40,7 @@ const Home = ({ description }) => {
       <Awards />
       <Tech />
       <HouseTechnology />
+      <Tab />
       <Footer />
 
     </>
