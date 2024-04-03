@@ -115,9 +115,8 @@ const Tab = () => {
                 height={300}
                 alt="pic"
               />
-            
             </section>
-            <section className="sm:gap-10 flex-row justify-around sm:justify-evenly flex-wrap">
+            {/* <section className="sm:gap-10 flex-row justify-around sm:justify-evenly flex-wrap">
               <Image className='sm:h-[55px] sm:w-[54px]'
                 src={"/assets/reactjs_logo_icon_206693.png"}
                 width={100}
@@ -161,8 +160,8 @@ const Tab = () => {
                 height={100}
                 alt="pic"
               />
-            </section>
-            <section className="sm:gap-10 flex-row justify-around sm:justify-evenly flex-wrap">
+            </section> */}
+            {/* <section className="sm:gap-10 flex-row justify-around sm:justify-evenly flex-wrap">
             <Image className='sm:h-[55px] sm:w-[54px]'
                 src={"/assets/brand_redis_icon_157818.png"}
                 width={100}
@@ -200,8 +199,8 @@ const Tab = () => {
                 height={100}
                 alt="pic1"
               />
-            </section>
-            <section className="sm:gap-10 flex-row justify-around sm:justify-evenly flex-wrap">
+            </section> */}
+            {/* <section className="sm:gap-10 flex-row justify-around sm:justify-evenly flex-wrap">
               <Image className='sm:h-[55px] sm:w-[54px]'
                 src={"/assets/php.png"}
                 width={100}
@@ -238,8 +237,8 @@ const Tab = () => {
                 height={100}
                 alt="pic"
               />
-            </section>
-
+            </section> */}
+{/* 
             <section className="sm:gap-10 flex-row justify-around sm:justify-evenly flex-wrap">
               <Image className='sm:h-[55px] sm:w-[54px]'
                 src={"/assets/tech/shopify_black_logo_icon_147085.png"}
@@ -272,9 +271,9 @@ const Tab = () => {
                 height={100}
                 alt="pic"
               />
-            </section>
+            </section> */}
 
-            <section className="sm:gap-10 flex-row justify-around sm:justify-evenly flex-wrap">
+            {/* <section className="sm:gap-10 flex-row justify-around sm:justify-evenly flex-wrap">
               <Image className='sm:h-[55px] sm:w-[54px]'
                 src={"/assets/azure.png"}
                 width={100}
@@ -312,7 +311,7 @@ const Tab = () => {
                 height={100}
                 alt="pic"
               />
-            </section>
+            </section> */}
           </div>
         </div>
       </div>
