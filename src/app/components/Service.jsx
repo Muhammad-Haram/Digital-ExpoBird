@@ -17,7 +17,7 @@ const Service = () => {
             <div className="col-span-6 left-container">
               <div className="md:pt-0 md:h-auto md:mb-[200px] lg:h-auto lg:mb-[200px]">
                 <div className='ml-[20px]'>
-                  <video className="py-3 " alt="" autoPlay={true}
+                  <video className="py-3 ml-[150px]" alt="" autoPlay={true}
                     muted={true}
                     loop={true}
                     src="/assets/video-editor.mp4" type="video/webm" >
@@ -44,19 +44,22 @@ const Service = () => {
                 </div>
               </div>
             </div>
-
-
+          
             <div className="col-span-6">
-              <div className="pt-[2rem]  md:h-auto md:mb-[100px] lg:h-auto lg:mb-[200px]">
-                <Image src="/assets/digital-branding.webp" height={0} width={100} className="py-3" alt="" />
-                <div className="bg-white shadow-md p-4 rounded-lg">
-                  <p className="text-[30px] text-[#252E48] font-bold pl-5 md:text-center" data-inviewport >Mobile App Development</p>
-                  <p className="text-[20px] text-[#545F7E] font-medium max-w-[70%] pl-5 py-3 md:text-center">We imagine and build experiences and businesses that win hearts and realize the future. Explore how we work.</p>
-                  <Link href="/services/digital">
-                    <button className="buttonv2 justify-end px-6 py-4 rounded-[40px] text-[#fff] text-[17px] font-semibold ml-[140px] md:flex md:items-left md:mx-auto">
-                      See All <span><Image src={"/assets/Send-arrow.svg"} className="inline" width={21} height={20} alt="pic" /></span>
-                    </button>
-                  </Link>
+              <div className="pt-[8rem] p-16 md:h-auto md:mb-[100px] lg:h-auto lg:mb-[200px]">
+
+                <div className='flex justify-center'>
+                  <div>
+                    <Image src="/assets/service-animation-07.png" height={0} width={100} className="py-3" alt="" />
+                  </div>
+                  <div>
+                    <p className="text-[25px] text-[#252E48] font-bold pl-5 md:text-center" data-inviewport >Web Development</p>
+                    <p className="text-[18px] text-[#545F7E] max-w-[70%] pl-5 py-3 md:text-center">We imagine and build experiences and businesses that win hearts and realize the future. Explore how we work.</p>
+                    <p className="text-[18px] text-[#252E48] font-medium max-w-[70%] pl-5 py-3 md:text-center">Replaces: Your website subscription
+                    </p>
+                  </div>
+                </div>
+                <div className="bg-white shadow-xl p-4 rounded-xl">
                 </div>
               </div>
             </div>
@@ -73,11 +76,10 @@ const Service = () => {
                 </div>
               </div>
             </div>
-
             <div className="col-span-6 left-container">
               <div className=" md:pt-0  md:h-auto md:mb-[200px] lg:h-auto lg:mb-[200px]">
                 <div>
-                  <video height={0} width={600} className="py-3 " alt="" autoPlay={true}
+                  <video height={0} width={600} className="py-3 ml-[150px]" alt="" autoPlay={true}
                     muted={true}
                     loop={true}
                     src="/assets/website-maker.mp4" type="video/webm" >
@@ -88,26 +90,31 @@ const Service = () => {
             </div>
 
             <div className="col-span-6">
-              <div className="pt-[2rem]  md:h-auto md:mb-[100px] lg:h-auto lg:mb-[200px]">
-                <Image src="/assets/digital-branding.webp" height={0} width={100} className="py-3" alt="" />
-                <div className="bg-white shadow-md p-4 rounded-lg">
-                  <p className="text-[30px] text-[#252E48] font-bold pl-5 md:text-center" data-inviewport >Digital Marketing</p>
-                  <p className="text-[20px] text-[#545F7E] font-medium max-w-[70%] pl-5 py-3 md:text-center">We imagine and build experiences and businesses that win hearts and realize the future. Explore how we work.</p>
-                  <Link href="/services/digital">
-                    <button className="buttonv2 justify-end px-6 py-4 rounded-[40px] text-[#fff] text-[17px] font-semibold ml-[140px] md:flex md:items-left md:mx-auto">
-                      See All <span><Image src={"/assets/Send-arrow.svg"} className="inline" width={21} height={20} alt="pic" /></span>
-                    </button>
-                  </Link>
+              <div className="pt-[8rem] p-16 md:h-auto md:mb-[100px] lg:h-auto lg:mb-[200px]">
+
+                <div className='flex justify-center'>
+                  <div>
+                    <Image src="/assets/service-animation-07.png" height={0} width={100} className="py-3" alt="" />
+                  </div>
+                  <div>
+                    <p className="text-[25px] text-[#252E48] font-bold pl-5 md:text-center" data-inviewport >Web Development</p>
+                    <p className="text-[18px] text-[#545F7E] max-w-[70%] pl-5 py-3 md:text-center">We imagine and build experiences and businesses that win hearts and realize the future. Explore how we work.</p>
+                    <p className="text-[18px] text-[#252E48] font-medium max-w-[70%] pl-5 py-3 md:text-center">Replaces: Your website subscription
+                    </p>
+                  </div>
+                </div>
+                <div className="bg-white shadow-xl p-4 rounded-xl">
                 </div>
               </div>
             </div>
-
-
-
-
           </div>
         </div>
       </div>
+      <Link href="/services/digital">
+                    <button className="buttonv2 mb-10 flex items-center m-auto justify-end px-6 py-4 rounded-[40px] text-[#fff] text-[17px] font-semibold md:flex md:items-left md:mx-auto">
+                      Get Started<span><Image src={"/assets/Send-arrow.svg"} className="inline" width={21} height={20} alt="pic" /></span>
+                    </button>
+                  </Link>
     </Fragment>
   )
 }
