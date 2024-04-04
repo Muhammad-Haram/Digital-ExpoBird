@@ -4,9 +4,9 @@ import Image from 'next/image'
 const Tech = () => {
   return (
     <>
-     <div className="font-montserrat sm:mt-[40px] xl:max-w-[1440px] bg-[#000213] mx-auto">
+     <div className="sm:pt-[150px] font-montserrat xl:max-w-[1440px] bg-[#000213] mx-auto">
         <div className="p-10 sm:p-0">
-          <h6 className="mt-[200px] sm:text-[40px] sm:text-center sm:mt-[40px] sm:ml-[5px] ml-[60px] md:text-[50px] lg:text-[60px] sm:font-extrabold text-[#ffff] text-[80px] font-bold">Our Futuristic Technology</h6>
+          <h6 className="mt-[200px] sm:text-[40px] sm:text-center sm:mt-[0px] sm:ml-[5px] ml-[60px] md:text-[50px] lg:text-[60px] sm:font-extrabold text-[#ffff] text-[80px] font-bold">Our Futuristic Technology</h6>
         </div>
         <article className="wrapper sm:py-1 sm:pb-0 pb-20">
           <div className="marquee">
