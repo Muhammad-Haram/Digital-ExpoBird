@@ -44,7 +44,7 @@ const Service = () => {
                 </div>
               </div>
             </div>
-          
+
             <div className="col-span-6 w-[700px]">
               <div className="pt-[8rem] p-16 md:h-auto md:mb-[100px] lg:h-auto lg:mb-[200px]">
 
@@ -111,10 +111,10 @@ const Service = () => {
         </div>
       </div>
       <Link href="/services/digital">
-                    <button className="buttonv2 mb-10 flex items-center m-auto justify-end px-6 py-4 rounded-[40px] text-[#fff] text-[17px] font-semibold md:flex md:items-left md:mx-auto">
-                      Get Started<span><Image src={"/assets/Send-arrow.svg"} className="inline" width={21} height={20} alt="pic" /></span>
-                    </button>
-                  </Link>
+        <button className="buttonv2 mb-10 flex items-center m-auto justify-end px-6 py-4 rounded-[40px] text-[#fff] text-[17px] font-semibold md:flex md:items-left md:mx-auto">
+          Get Started<span><Image src={"/assets/Send-arrow.svg"} className="inline" width={21} height={20} alt="pic" /></span>
+        </button>
+      </Link>
     </Fragment>
   )
 }
