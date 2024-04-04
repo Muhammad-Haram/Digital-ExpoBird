@@ -4,13 +4,13 @@ import Image from 'next/image'
 const Driven = () => {
   return (
     <Fragment>
-      <div className="sm:px-5 font-montserrat bg-[#000213] lg:px-10 md:px-8 px-48 mb-24 lg:mb-10 md:text-center">
+      <div className="sm:px-5 font-montserrat bg-white lg:px-10 md:px-8 px-48 mb-24 lg:mb-10 md:text-center">
         <div className="md:justify-center flex items-center pt-20 sm:pt-5 lg:ml-[70px]">
           <div className='sm:w-[100%] flex items-center justify-center flex-col'>
-            <p className="sm:text-[50px] text-[80px] lg:text-[80px] lg:font-black leading-none sm:text-center md:flex md:items-center md:m-auto mt-2 text-white sm:mt-6 font-black max-w-[750px] md:mb-10 md:mt-10">
+            <p className="sm:text-[50px] text-[80px] lg:text-[80px] lg:font-black leading-none sm:text-center md:flex md:items-center md:m-auto mt-2  text-black sm:mt-6 font-black max-w-[750px] md:mb-10 md:mt-10">
               Data-Driven Revenue Marketing
             </p>
-            <p className="sm:text-[16px] sm:px-2 sm:pr-[0px] sm:text-center sm:flex-wrap md:flex md:items-center md:m-auto lg:text-[20px] text-white text-2xl leading-none max-w-[820px] my-12 md:mb-10 md:mt-10">
+            <p className="sm:text-[16px] sm:px-2 sm:pr-[0px] sm:text-center sm:flex-wrap md:flex md:items-center md:m-auto lg:text-[20px]  text-black text-2xl leading-none max-w-[820px] my-12 md:mb-10 md:mt-10">
               Choose Expobird as your software development agency and propel your business to new heights with our award-winning software development services and proprietary technology platform.
             </p>
             <form>
