@@ -12,6 +12,8 @@ import Awards from './components/Awards';
 import Service from './components/Service';
 import Tech from './components/Tech';
 import Footer from './components/Footer';
+import Tab from './components/Tab';
+import Testimonials from './components/Testimonials';
 
 
 const Home = ({ description }) => {
@@ -32,13 +34,15 @@ const Home = ({ description }) => {
       <Navbar />
       <Hero />
       <HeroBackground />
-     <Service />
-      <FeatureWork title={"We are a team of design and research experts with over ten years of experience in improving businesses and peoples lives through smart design solutions"} />
+      <Service />
+      <FeatureWork />
       <Clients />
+      <Testimonials />
       <Driven para={"Choose Expobird as your software development agency and propel your business to new heights with our award-winning software development services and proprietary technology platform."} />
       <Awards />
       <Tech />
       <HouseTechnology />
+      <Tab />
       <Footer />
 
     </>
