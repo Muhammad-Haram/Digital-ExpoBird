@@ -9,7 +9,7 @@ const Tab = () => {
   }, []);
   return (
     <Fragment>
-      <div className="md:mb-[130px] mt-[50px] mb-[400px] font-montserrat sm:px-10 sm:mb-10  xl:px-36 px-0 relative z-10">
+      <div className="md:mb-[130px] sm:mb-[200px] mt-[50px] mb-[400px] font-montserrat sm:px-10 xl:px-36 px-0 relative z-10">
         <div className=" md:mb-0 md:py-[1rem] py-[3rem] sm:py-[1rem] mb-10">
           <h5 className="font-bold leading-none sm:text-[25px] sm:text-center md:text-[30px] mt-10 sm:m-6 md:m-3 text-[40px] text-[#252E48] sm:font-extrabold text-center">
             Powerful explainer and promotional videos, <br /> broadcast quality intros and outros, music <br /> visualizations, and much more.
