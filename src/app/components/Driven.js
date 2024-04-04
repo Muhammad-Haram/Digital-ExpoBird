@@ -18,7 +18,7 @@ const Driven = () => {
                 <input
                   type="email"
                   placeholder="Enter Your Email"
-                  className="sm:mb-5 sm:min-w-[200px] md:min-w-[450px] rounded-[40px] bg-transparent outline-[#5D6BD9] outline outline-1 border-none py-4 px-9 min-w-[420px] placeholder:text-white placeholder:text-center text-base text-white md:items-center md:m-auto"
+                  className="sm:mb-5 sm:min-w-[200px] md:min-w-[450px] rounded-[40px] bg-transparent outline-[#5D6BD9] outline outline-1 border-none py-4 px-9 min-w-[420px] placeholder:text-black placeholder:text-center text-base text-black md:items-center md:m-auto"
                 />
                 <button className="text-white sm:mt-[0px] sm:ml-[0px] sm:mb-[30px] mb-10 mt-[40px] text-[17px] lg:ml-[140px] buttonv2 rounded-[70px] py-4 px-6 font-semibold md:flex md:items-center md:m-auto md:mb-10 md:mt-10">
                   Contact Us{" "}

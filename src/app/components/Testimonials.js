@@ -11,7 +11,8 @@ import Image from 'next/image';
 export default function Testimonials() {
   return (
     <>
-      <p className='text-white bg-[#000213] font-montserrat placeholder:text-white sm:text-[40px] text-[70px] font-bold sm:font-extrabold text-center sm:text-center'>Testimonials</p>
+      <p className='text-white bg-[#000213] animate-rotate-x
+ font-montserrat placeholder:text-white sm:text-[40px] text-[70px] font-bold sm:font-extrabold text-center sm:text-center'>Testimonials</p>
       <Swiper
         effect={'coverflow'}
         grabCursor={true}
