@@ -1,5 +1,4 @@
 import React from 'react';
-import Script from 'next/script';
 import Head from 'next/head';
 import Hero from './components/Hero';
 import FeatureWork from './components/FeatureWork';
@@ -20,17 +19,13 @@ const Home = ({ description }) => {
   return (
     <>
       <Head>
-        <title>Home - DigiExpo</title>
+        <title> Digital || Expo </title>
         <meta
           name='description'
           content={description}
           key="desc"
         />
       </Head>
-      <Script
-        src="/scripts/script-3.js"
-        strategy="lazyOnload"
-      ></Script>
       <Navbar />
       <Hero />
       <HeroBackground />
@@ -38,7 +33,7 @@ const Home = ({ description }) => {
       <FeatureWork />
       <Clients />
       <Testimonials />
-      <Driven para={"Choose Expobird as your software development agency and propel your business to new heights with our award-winning software development services and proprietary technology platform."} />
+      <Driven />
       <Awards />
       <Tech />
       <HouseTechnology />

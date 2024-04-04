@@ -3,7 +3,7 @@ import DigitalHero from '@/app/components/DigitalHero';
 import Navbar from '@/app/components/Navbar';
 import FeatureWork from '@/app/components/FeatureWork';
 import Footer from '@/app/components/Footer';
-import Driven2 from '@/app/components/Driven2';
+import Driven from '@/app/components/Driven';
 
 const App = () => {
   return (
@@ -21,7 +21,7 @@ const App = () => {
       </div>
       <FeatureWork title={"We are a team of Social Media and research experts with over ten years of experience in improving businesses and peoples’ lives through smart design"}
       />
-      <Driven2 para={"Choose Expobird as your software development agency and propel your business to new heights with our award-winning software development services and proprietary technology platform."} />
+      <Driven />
       <Footer />
     </>
   )

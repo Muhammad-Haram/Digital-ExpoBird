@@ -30,10 +30,6 @@ const Navbar = () => {
                 <li className="md:text-[14px] text-white text-[16px] font-semibold" onClick={toggleMobileMenu}>
                   Services
                 </li>
-
-                <Link href="/about"><li className="md:text-[14px] text-white text-[16px] font-semibold">
-                  About Us
-                </li></Link>
                 <Link href="/contact"><li className="md:text-[14px] text-white text-[16px] font-semibold">
                   Contact Us
                 </li></Link>

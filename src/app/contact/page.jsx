@@ -1,13 +1,11 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import TestingNav from '../components/TestingNav'
 import Footer from '../components/Footer'
 
 const page = () => {
   return (
     <>
       <Navbar />
-      <TestingNav />
       <h1 className='font-montserrat text-5xl font-semibold flex justify-center items-center mt-16 mb-16'>Contact Us</h1>
 
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619.7521516961883!2d67.05454477532896!3d24.872313244783342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f171277b2e7%3A0xd279dda1f08cd42!2sExpoBird%20Digital%20Marketing%20Agency%20%7C%20Social%20Media%20Marketing%20%7C%20Professional%20SEO%20Services%20Pakistan!5e0!3m2!1sen!2s!4v1708174580698!5m2!1sen!2s" width="100%" height="450" style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

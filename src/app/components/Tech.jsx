@@ -11,82 +11,82 @@ const Tech = () => {
         <article className="wrapper sm:py-1 sm:pb-0 pb-20">
           <div className="marquee">
             <div className="marquee__group">
-              <Image src={"/assets/tech/technology-icon-2.svg"} height={0} width={40} alt="pic" />
-              <Image src={"/assets/tech/technology-icon-9.svg"} height={0} width={40} alt="pic" />
-              <Image src={"/assets/tech/technology-icon-14.svg"} height={0} width={40} alt="pic" />
-              <Image src={"/assets/tech/technology-icon-8.svg"} height={0} width={40} alt="pic" />
-              <Image src={"/assets/tech/technology-icon-7.svg"} height={0} width={40} alt="pic" />
-              <Image src={"/assets/tech/technology-icon-2.svg"} height={0} width={40} alt="pic" />
-              <Image src={"/assets/tech/technology-icon-9.svg"} height={0} width={40} alt="pic" />
-              <Image src={"/assets/tech/technology-icon-14.svg"} height={0} width={40} alt="pic" />
-              <Image src={"/assets/tech/technology-icon-8.svg"} height={0} width={40} alt="pic" />
-              <Image src={"/assets/tech/technology-icon-7.svg"} height={0} width={40} alt="pic" />
-              <Image src={"/assets/tech/technology-icon-2.svg"} height={0} width={40} alt="pic" />
-              <Image src={"/assets/tech/technology-icon-9.svg"} height={0} width={40} alt="pic" />
-              <Image src={"/assets/tech/technology-icon-14.svg"} height={0} width={40} alt="pic" />
-              <Image src={"/assets/tech/technology-icon-8.svg"} height={0} width={40} alt="pic" />
-              <Image src={"/assets/tech/technology-icon-5.svg"} height={0} width={40} alt="pic" />
-              <Image src={"/assets/tech/technology-icon-18.svg"} height={0} width={40} alt="pic" />
-              <Image src={"/assets/tech/technology-icon-7.svg"} height={0} width={40} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-2.svg"} height={60} width={60} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-9.svg"} height={60} width={60} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-14.svg"} height={60} width={60} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-8.svg"} height={60} width={60} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-7.svg"} height={60} width={60} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-2.svg"} height={60} width={60} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-9.svg"} height={60} width={60} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-14.svg"} height={60} width={60} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-8.svg"} height={60} width={60} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-7.svg"} height={60} width={60} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-2.svg"} height={60} width={60} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-9.svg"} height={60} width={60} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-14.svg"} height={60} width={60} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-8.svg"} height={60} width={60} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-5.svg"} height={60} width={60} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-18.svg"} height={60} width={60} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-7.svg"} height={60} width={60} alt="pic" />
             </div>
 
             <div aria-hidden="true" className="marquee__group">
-              <Image src={"/assets/tech/technology-icon-3.svg"} height={0} width={40} alt="pic" />
-              <Image src={"/assets/tech/technology-icon-16.svg"} height={0} width={40} alt="pic" />
-              <Image src={"/assets/tech/technology-icon-9 (1).svg"} height={0} width={40} alt="pic" />
-              <Image src={"/assets/tech/technology-icon-1.svg"} height={0} width={40} alt="pic" />
-              <Image src={"/assets/tech/technology-icon-18.svg"} height={0} width={40} alt="pic" />
-              <Image src={"/assets/tech/technology-icon-6.svg"} height={0} width={40} alt="pic" />
-              <Image src={"/assets/tech/technology-icon-5.svg"} height={0} width={40} alt="pic" />
-              <Image src={"/assets/tech/technology-icon-16.svg"} height={0} width={40} alt="pic" />
-              <Image src={"/assets/tech/technology-icon-8.svg"} height={0} width={40} alt="pic" />
-              <Image src={"/assets/tech/technology-icon-5.svg"} height={0} width={40} alt="pic" />
-              <Image src={"/assets/tech/technology-icon-6.svg"} height={0} width={40} alt="pic" />
-              <Image src={"/assets/tech/technology-icon-21.svg"} height={0} width={40} alt="pic" />
-              <Image src={"/assets/tech/technology-icon-5.svg"} height={0} width={40} alt="pic" />
-              <Image src={"/assets/tech/technology-icon-8.svg"} height={0} width={40} alt="pic" />
-              <Image src={"/assets/tech/technology-icon-18svg"} height={0} width={40} alt="pic" />
-              <Image src={"/assets/tech/technology-icon-5.svg"} height={0} width={40} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-3.svg"} height={60} width={60} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-16.svg"} height={60} width={60} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-9 (1).svg"} height={60} width={60} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-1.svg"} height={60} width={60} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-18.svg"} height={60} width={60} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-6.svg"} height={60} width={60} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-5.svg"} height={60} width={60} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-16.svg"} height={60} width={60} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-8.svg"} height={60} width={60} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-5.svg"} height={60} width={60} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-6.svg"} height={60} width={60} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-21.svg"} height={60} width={60} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-5.svg"} height={60} width={60} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-8.svg"} height={60} width={60} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-18svg"} height={60} width={60} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-5.svg"} height={60} width={60} alt="pic" />
             </div>
           </div>
 
           <div className="marquee marquee--reverse">
             <div className="marquee__group">
-              <Image src={"/assets/tech/technology-icon-21.svg"} height={0} width={40} alt="pic" />
-              <Image src={"/assets/tech/technology-icon-18.svg"} height={0} width={40} alt="pic" />
-              <Image src={"/assets/tech/technology-icon-15.svg"} height={0} width={40} alt="pic" />
-              <Image src={"/assets/tech/technology-icon-13.svg"} height={0} width={40} alt="pic" />
-              4<Image src={"/assets/tech/technology-icon-3.svg"} height={0} width={40} alt="pic" />
-              <Image src={"/assets/tech/technology-icon-21.svg"} height={0} width={40} alt="pic" />
-              <Image src={"/assets/tech/technology-icon-18.svg"} height={0} width={40} alt="pic" />
-              <Image src={"/assets/tech/technology-icon-15.svg"} height={0} width={40} alt="pic" />
-              <Image src={"/assets/tech/technology-icon-13.svg"} height={0} width={40} alt="pic" />
-              4<Image src={"/assets/tech/technology-icon-3.svg"} height={0} width={40} alt="pic" />
-              <Image src={"/assets/tech/technology-icon-21.svg"} height={0} width={40} alt="pic" />
-              <Image src={"/assets/tech/technology-icon-18.svg"} height={0} width={40} alt="pic" />
-              <Image src={"/assets/tech/technology-icon-15.svg"} height={0} width={40} alt="pic" />
-              <Image src={"/assets/tech/technology-icon-13.svg"} height={0} width={40} alt="pic" />
-              4<Image src={"/assets/tech/technology-icon-5.svg"} height={0} width={40} alt="pic" />
-              4<Image src={"/assets/tech/technology-icon-3.svg"} height={0} width={40} alt="pic" />
-              4<Image src={"/assets/tech/technology-icon-21.svg"} height={0} width={40} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-21.svg"} height={60} width={60} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-18.svg"} height={60} width={60} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-15.svg"} height={60} width={60} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-13.svg"} height={60} width={60} alt="pic" />
+              4<Image src={"/assets/tech/technology-icon-3.svg"} height={60} width={60} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-21.svg"} height={60} width={60} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-18.svg"} height={60} width={60} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-15.svg"} height={60} width={60} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-13.svg"} height={60} width={60} alt="pic" />
+              4<Image src={"/assets/tech/technology-icon-3.svg"} height={60} width={60} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-21.svg"} height={60} width={60} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-18.svg"} height={60} width={60} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-15.svg"} height={60} width={60} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-13.svg"} height={60} width={60} alt="pic" />
+              4<Image src={"/assets/tech/technology-icon-5.svg"} height={60} width={60} alt="pic" />
+              4<Image src={"/assets/tech/technology-icon-3.svg"} height={60} width={60} alt="pic" />
+              4<Image src={"/assets/tech/technology-icon-21.svg"} height={60} width={60} alt="pic" />
             </div>
 
             <div aria-hidden="true" className="marquee__group">
-              <Image src={"/assets/tech/technology-icon-5.svg"} height={0} width={40} alt="pic" />
-              <Image src={"/assets/tech/technology-icon-10.svg"} height={0} width={40} alt="pic" />
-              <Image src={"/assets/tech/technology-icon-21.svg"} height={0} width={40} alt="pic" />
-              <Image src={"/assets/tech/technology-icon-18.svg"} height={0} width={40} alt="pic" />
-              <Image src={"/assets/tech/technology-icon-3.svg"} height={0} width={40} alt="pic" />
-              <Image src={"/assets/tech/technology-icon-5.svg"} height={0} width={40} alt="pic" />
-              <Image src={"/assets/tech/technology-icon-18.svg"} height={0} width={40} alt="pic" />
-              <Image src={"/assets/tech/technology-icon-5.svg"} height={0} width={40} alt="pic" />
-              <Image src={"/assets/tech/technology-icon-8.svg"} height={0} width={40} alt="pic" />
-              <Image src={"/assets/tech/technology-icon-21.svg"} height={0} width={40} alt="pic" />
-              <Image src={"/assets/tech/technology-icon-3.svg"} height={0} width={40} alt="pic" />
-              <Image src={"/assets/tech/technology-icon-5.svg"} height={0} width={40} alt="pic" />
-              <Image src={"/assets/tech/technology-icon-18.svg"} height={0} width={40} alt="pic" />
-              <Image src={"/assets/tech/technology-icon-7.svg"} height={0} width={40} alt="pic" />
-              <Image src={"/assets/tech/technology-icon-18.svg"} height={0} width={40} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-5.svg"} height={60} width={60} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-10.svg"} height={60} width={60} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-21.svg"} height={60} width={60} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-18.svg"} height={60} width={60} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-3.svg"} height={60} width={60} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-5.svg"} height={60} width={60} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-18.svg"} height={60} width={60} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-5.svg"} height={60} width={60} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-8.svg"} height={60} width={60} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-21.svg"} height={60} width={60} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-3.svg"} height={60} width={60} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-5.svg"} height={60} width={60} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-18.svg"} height={60} width={60} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-7.svg"} height={60} width={60} alt="pic" />
+              <Image src={"/assets/tech/technology-icon-18.svg"} height={60} width={60} alt="pic" />
             </div>
           </div>
         </article>

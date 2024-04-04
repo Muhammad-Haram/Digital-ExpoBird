@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 import Image from 'next/image'
 
-const Driven = ({ para }) => {
+const Driven = () => {
   return (
     <Fragment>
       <div className="sm:px-5 font-montserrat bg-[#000213] lg:px-10 md:px-8 px-48 mb-24 lg:mb-10 md:text-center">
@@ -11,7 +11,7 @@ const Driven = ({ para }) => {
               Data-Driven Revenue Marketing
             </p>
             <p className="sm:text-[16px] sm:px-2 sm:pr-[0px] sm:text-center sm:flex-wrap md:flex md:items-center md:m-auto lg:text-[20px] text-white text-2xl leading-none max-w-[820px] my-12 md:mb-10 md:mt-10">
-              {para}
+              Choose Expobird as your software development agency and propel your business to new heights with our award-winning software development services and proprietary technology platform.
             </p>
             <form>
               <label className="sm:flex items-center justify-center flex-col block ">
