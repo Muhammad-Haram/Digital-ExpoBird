@@ -49,9 +49,6 @@ const Service = () => {
               </div>
             </div>
 
-            <div className="col-span-6 w-[700px]">
-              <div className="pt-[8rem] p-16 md:h-auto md:mb-[100px] lg:h-auto lg:mb-[200px]">
-
             <div className="sm:mb-[30px] sm:w-[350px] col-span-6 w-[700px] sm:ml-0 ml-[100px]">
               <div className="sm:p-2 pt-[8rem] p-16 md:h-auto md:mb-[100px] lg:h-auto lg:mb-[200px]">
 
