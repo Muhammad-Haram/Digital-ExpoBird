@@ -36,6 +36,8 @@ const Form = () => {
 
                         <input className='bg-[#f0f2f4]  drop-shadow-sm pl-3 p-2 w-3/4 mb-[25px] shadow-lg shadow-[#aaacd3]' placeholder='Your Name' />
 
+                        <br />
+
                         <button className='rounded-[50px] bg-[#7b41f9] font-bold text-[16px] text-white
                         mt-[20px] px-[40px] py-[10px] mb-[25px] shadow-lg shadow-[#aaacd3]'>Submit</button>
                     </form>
