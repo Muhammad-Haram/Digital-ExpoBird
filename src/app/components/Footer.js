@@ -30,7 +30,6 @@ const Footer = () => {
                     <Image src={"/assets/social/linkedin.svg"} width={10} height={10} />
                     <Image src={"/assets/social/x-white.svg"} width={10} height={10} />
                     <Image src={"/assets/social/youtube.svg"} width={10} height={10} />
-
                   </div>
                 </div>
               </div>
