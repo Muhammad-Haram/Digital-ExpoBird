@@ -60,9 +60,9 @@ body {
 
 .hero-background-animation::after {
   content: "";
-  background: linear-gradient(180deg, #151515 50%, rgba(21, 21, 21, 0) 80%);
+  background: linear-gradient(180deg, #000213 50%, rgba(21, 21, 21, 0) 60%);
   position: absolute;
-  height: 25%;
+  height: 15%;
   width: 100%;
   top: 0;
   z-index: 1;

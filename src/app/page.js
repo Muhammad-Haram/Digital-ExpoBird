@@ -14,6 +14,7 @@ import Footer from './components/Footer';
 import Tab from './components/Tab';
 import Testimonials from './components/Testimonials';
 import Form from './components/Form';
+import MobileNav from './components/MobileNav';
 
 
 const Home = ({ description }) => {
@@ -28,6 +29,7 @@ const Home = ({ description }) => {
         />
       </Head>
       <Navbar />
+      <MobileNav />
       <Hero />
       <HeroBackground />
       <Service />
