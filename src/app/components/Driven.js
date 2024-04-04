@@ -1,7 +1,9 @@
 import React, { Fragment } from 'react'
 import Image from 'next/image'
 
+
 const Driven = () => {
+
   return (
     <Fragment>
       <div className="sm:px-5 font-montserrat bg-white lg:px-10 md:px-8 px-48 mb-24 lg:mb-10 md:text-center">
@@ -35,24 +37,6 @@ const Driven = () => {
               </label>
             </form>
           </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
           <div>
             <Image className='sm:hidden md:hidden'
               src={"/assets/hero-image-expo.png"}

@@ -8,10 +8,6 @@ import Driven from '@/app/components/Driven';
 const App = () => {
     return (
         <>
-            <Script
-                src="/scripts/script-3.js"
-                strategy="lazyOnload"
-            ></Script>
             <div className='bg-hero-image w-full overflow-hidden'>
                 <Navbar />
                 <DigitalHero title={"ExpoBird is leading mobile app development company \ Dubai, helping business transform their ideas into reality. We build mobile app \

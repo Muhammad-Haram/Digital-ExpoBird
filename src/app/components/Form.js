@@ -5,7 +5,7 @@ const Form = () => {
     return (
 
         <>
-            <div className='w-full flex p-[100px] box-border'>
+            <div className='w-full font-montserrat flex p-[100px] box-border'>
 
                 <div className='w-3/5'>
                     <video className='w-4/5 shadow-2xl shadow-[#696969] rounded-[20px]' width="320" height="240"

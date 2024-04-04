@@ -11,12 +11,8 @@ const Tab = () => {
     <Fragment>
       <div className="md:mb-[130px] mt-[50px] mb-[400px] font-montserrat sm:px-10 sm:mb-10  xl:px-36 px-0 relative z-10">
         <div className="py-[3rem] sm:py-[1rem] mb-10">
-          <h5 className="sm:hidden md:hidden font-bold leading-none sm:text-[40px] sm:text-center md:text-[35px] mt-10 sm:m-6 md:m-3 text-[40px] text-[#252E48] sm:font-extrabold text-center">
+          <h5 className="font-bold leading-none sm:text-[40px] sm:text-center md:text-[35px] mt-10 sm:m-6 md:m-3 text-[40px] text-[#252E48] sm:font-extrabold text-center">
             Powerful explainer and promotional videos, <br /> broadcast quality intros and outros, music <br /> visualizations, and much more.
-          </h5>
-
-          <h5 className="xl:hidden 2xl:hidden md:text-[70px] md:ml-[60px] lg:hidden sm:text-[40px] sm:leading-none sm:text-center mt-10 sm:mt-0 ml-[60px] sm:m-6 md:m-3 text-[40px] text-black font-bold">
-            Powerful explainer and promotional videos, broadcast quality intros and outros, music visualizations, and much more.
           </h5>
         </div>
 
