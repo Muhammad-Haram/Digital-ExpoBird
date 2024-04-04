@@ -29,14 +29,14 @@ export default function Testimonials() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <div className="font-montserrat swiper-card swiper-js translate-y-20  shadow-[#7B41F9] shadow-md bg-[#000213]" style={{ background:'#000213', color: 'white', height: '450px', borderRadius: '10px', padding: '20px', textAlign: 'center' }}>
+          <div className="font-montserrat swiper-card swiper-js translate-y-20  shadow-[#7B41F9] shadow-md bg-[#000213]" style={{ background: '#000213', color: 'white', height: '450px', borderRadius: '10px', padding: '20px', textAlign: 'center' }}>
             <Image src={"/assets/test/5e2f6b6094e2db7f3c838090_Testimonial-Cristian-Brownlee.png"} height={100} width={100} alt="Logo" style={{ width: '90px', height: '100px', borderRadius: '50%', marginBottom: '10px', marginLeft: "80px" }} />
             <h2 className='font-montserrat sm:text-[20px]' style={{ fontSize: '25px', fontWeight: 'bold', margin: '10px 0' }}>Harris</h2>
             <p className='font-montserrat sm:text-[20px]' style={{ fontSize: '25px', marginTop: "90px" }}>ExpoBird is listed as Top Android App Development Companies by good firms</p>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="font-montserrat swiper-card bg-[#000213] shadow-[#7B41F9] shadow-md " style={{ background:'#000213', color: 'white', height: '500px', borderRadius: '10px', padding: '20px', textAlign: 'center' }}>
+          <div className="font-montserrat swiper-card bg-[#000213] shadow-[#7B41F9] shadow-md " style={{ background: '#000213', color: 'white', height: '500px', borderRadius: '10px', padding: '20px', textAlign: 'center' }}>
             <Image src={"/assets/test/5e30b5eb36770a7552775335_Testimonial-Andy-Haines.png"} height={100} width={100} alt="Logo" style={{ width: '90px', height: '100px', borderRadius: '50%', marginBottom: '10px', marginLeft: "80px" }} />
             <h2 className='font-montserrat sm:text-[20px]' style={{ fontSize: '25px', fontWeight: 'bold', margin: '10px 0' }}>Ahmed</h2>
             <p className='font-montserrat sm:text-[20px]' style={{ fontSize: '25px', marginTop: "90px" }}>ExpoBird is listed as Top Android App Development Companies by good firms</p>
