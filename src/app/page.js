@@ -13,6 +13,7 @@ import Service from './components/Service';
 import Tech from './components/Tech';
 import Footer from './components/Footer';
 import Tab from './components/Tab';
+import Testimonials from './components/Testimonials';
 
 
 const Home = ({ description }) => {
@@ -36,6 +37,7 @@ const Home = ({ description }) => {
       <Service />
       <FeatureWork />
       <Clients />
+      <Testimonials />
       <Driven para={"Choose Expobird as your software development agency and propel your business to new heights with our award-winning software development services and proprietary technology platform."} />
       <Awards />
       <Tech />
