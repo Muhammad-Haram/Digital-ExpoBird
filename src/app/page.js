@@ -13,6 +13,7 @@ import Tech from './components/Tech';
 import Footer from './components/Footer';
 import Tab from './components/Tab';
 import Testimonials from './components/Testimonials';
+import Form from './components/Form';
 
 
 const Home = ({ description }) => {
@@ -38,6 +39,7 @@ const Home = ({ description }) => {
       <Tech />
       <HouseTechnology />
       <Tab />
+      <Form/>
       <Footer />
 
     </>
