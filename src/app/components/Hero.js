@@ -4,9 +4,9 @@ import Image from 'next/image';
 const Hero = () => {
   return (
     <>
-      <div className="sm:pt-[60px] sm:px-[4rem] md:pt-[10px] sm:relative sm:z-10 px-24 flex items-center font-montserrat justify-center relative">
-        <div className="w-full sm:my-[40px]">
-          <section className="py-24 sm:py-4 md:py-30 w-full sm flex items-center justify-center">
+      <div className="sm:pt-[30px] sm:px-[4rem] md:pt-[10px] sm:relative sm:z-10 px-24 flex items-center font-montserrat justify-center relative">
+        <div className="w-full">
+          <section className="py-24 sm:py-0 md:py-30 w-full sm flex items-center justify-center">
             <div className="text-center">
               <h6 className="sm:text-[45px] sm:leading-tight md:text-[50px] lg:text-[60px] inline text-[80px] text-white font-black"><span className="text-[#7B41F9]">I</span>nnovate, <span className="text-[#7B41F9]">E</span>ngage, <span className="text-[#7B41F9]">S</span>ucceed
               </h6>
