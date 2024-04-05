@@ -9,7 +9,7 @@ const Tab = () => {
   }, []);
   return (
     <Fragment>
-      <div className="md:mb-[130px] sm:mb-[290px] mt-[50px] mb-[400px] font-montserrat sm:px-5 xl:px-0 px-0 relative z-10">
+      <div className="md:mb-[130px] sm:mb-[400px] mt-[50px] mb-[400px] font-montserrat sm:px-5 xl:px-0 px-0 relative z-10">
         <div className=" md:mb-0 md:py-[1rem] py-[3rem] sm:py-[1rem] mb-10">
           <h5 className="font-bold leading-none sm:text-[25px] sm:text-center md:text-[30px] mt-10 sm:m-6 md:m-3 text-[40px] text-[#252E48] sm:font-extrabold text-center">
             Powerful explainer and promotional <br /> videos, broadcast quality intros and <br /> outros, music  visualizations, and much more.
@@ -89,49 +89,49 @@ const Tab = () => {
           <div className="content mt-[30px]">
             <section className="sm:gap-[48px] flex-row justify-around sm:justify-evenly">
               <div className='gap-[30px]'>
-                <div className='flex justify-center gap-5 mb-10'>
-                  <Image className='rounded-lg max-w-[25%]'
+                <div className='flex justify-start gap-5 sm:overflow-x-auto mb-10'>
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
                     src={"/assets/tabs/3d_explainer_video_toolkit.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
                   />
-                  <Image className='rounded-lg max-w-[25%]'
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
                     src={"/assets/tabs/factory-of-3d-animations.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
                   />
-                  <Image className='rounded-lg max-w-[25%]'
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
                     src={"/assets/tabs/trendy_typography_pack.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
                   />
-                  <Image className='rounded-lg max-w-[25%]'
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
                     src={"/assets/tabs/whiteboard_animation_toolkit.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
                   />
                 </div>
-                <div className='flex justify-center gap-5'>
-                  <Image className='rounded-lg max-w-[25%]'
+                <div className='flex justify-start gap-5 sm:overflow-x-auto'>
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
                     src={"/assets/tabs/album_promo_visualizer.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
-                  />  <Image className='rounded-lg max-w-[25%]'
+                  />  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
                     src={"/assets/tabs/trendy_explainer_toolkit.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
-                  />  <Image className='rounded-lg max-w-[25%]'
+                  />  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
                     src={"/assets/tabs/informative_social_pack.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
-                  />  <Image className=' rounded-lg max-w-[25%]'
+                  />  <Image className=' rounded-lg sm:max-w-[100%] max-w-[25%]'
                     src={"/assets/tabs/luminous_neon_visualizer.jpg"}
                     width={400}
                     height={400}
@@ -143,49 +143,49 @@ const Tab = () => {
 
             <section className="sm:gap-[48px] flex-row justify-around sm:justify-evenly">
               <div className='gap-[30px]'>
-                <div className='flex justify-center gap-5 mb-10'>
-                  <Image className='rounded-lg max-w-[25%]'
+                <div className='flex justify-start gap-5 sm:overflow-x-auto mb-10'>
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
                     src={"/assets/tabs/3d_explainer_video_toolkit.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
                   />
-                  <Image className='rounded-lg max-w-[25%]'
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
                     src={"/assets/tabs/factory-of-3d-animations.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
                   />
-                  <Image className='rounded-lg max-w-[25%]'
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
                     src={"/assets/tabs/trendy_typography_pack.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
                   />
-                  <Image className='rounded-lg max-w-[25%]'
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
                     src={"/assets/tabs/whiteboard_animation_toolkit.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
                   />
                 </div>
-                <div className='flex justify-center gap-5'>
-                  <Image className='rounded-lg max-w-[25%]'
+                <div className='flex justify-start gap-5 sm:overflow-x-auto'>
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
                     src={"/assets/tabs/album_promo_visualizer.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
-                  />  <Image className='rounded-lg max-w-[25%]'
+                  />  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
                     src={"/assets/tabs/trendy_explainer_toolkit.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
-                  />  <Image className='rounded-lg max-w-[25%]'
+                  />  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
                     src={"/assets/tabs/informative_social_pack.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
-                  />  <Image className=' rounded-lg max-w-[25%]'
+                  />  <Image className=' rounded-lg sm:max-w-[100%] max-w-[25%]'
                     src={"/assets/tabs/luminous_neon_visualizer.jpg"}
                     width={400}
                     height={400}
@@ -197,49 +197,49 @@ const Tab = () => {
 
             <section className="sm:gap-[48px] flex-row justify-around sm:justify-evenly">
               <div className='gap-[30px]'>
-                <div className='flex justify-center gap-5 mb-10'>
-                  <Image className='rounded-lg max-w-[25%]'
+                <div className='flex justify-start gap-5 sm:overflow-x-auto mb-10'>
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
                     src={"/assets/tabs/3d_explainer_video_toolkit.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
                   />
-                  <Image className='rounded-lg max-w-[25%]'
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
                     src={"/assets/tabs/factory-of-3d-animations.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
                   />
-                  <Image className='rounded-lg max-w-[25%]'
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
                     src={"/assets/tabs/trendy_typography_pack.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
                   />
-                  <Image className='rounded-lg max-w-[25%]'
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
                     src={"/assets/tabs/whiteboard_animation_toolkit.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
                   />
                 </div>
-                <div className='flex justify-center gap-5'>
-                  <Image className='rounded-lg max-w-[25%]'
+                <div className='flex justify-start gap-5 sm:overflow-x-auto'>
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
                     src={"/assets/tabs/album_promo_visualizer.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
-                  />  <Image className='rounded-lg max-w-[25%]'
+                  />  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
                     src={"/assets/tabs/trendy_explainer_toolkit.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
-                  />  <Image className='rounded-lg max-w-[25%]'
+                  />  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
                     src={"/assets/tabs/informative_social_pack.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
-                  />  <Image className=' rounded-lg max-w-[25%]'
+                  />  <Image className=' rounded-lg sm:max-w-[100%] max-w-[25%]'
                     src={"/assets/tabs/luminous_neon_visualizer.jpg"}
                     width={400}
                     height={400}
@@ -251,49 +251,49 @@ const Tab = () => {
 
             <section className="sm:gap-[48px] flex-row justify-around sm:justify-evenly">
               <div className='gap-[30px]'>
-                <div className='flex justify-center gap-5 mb-10'>
-                  <Image className='rounded-lg max-w-[25%]'
+                <div className='flex justify-start gap-5 sm:overflow-x-auto mb-10'>
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
                     src={"/assets/tabs/3d_explainer_video_toolkit.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
                   />
-                  <Image className='rounded-lg max-w-[25%]'
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
                     src={"/assets/tabs/factory-of-3d-animations.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
                   />
-                  <Image className='rounded-lg max-w-[25%]'
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
                     src={"/assets/tabs/trendy_typography_pack.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
                   />
-                  <Image className='rounded-lg max-w-[25%]'
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
                     src={"/assets/tabs/whiteboard_animation_toolkit.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
                   />
                 </div>
-                <div className='flex justify-center gap-5'>
-                  <Image className='rounded-lg max-w-[25%]'
+                <div className='flex justify-start gap-5 sm:overflow-x-auto'>
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
                     src={"/assets/tabs/album_promo_visualizer.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
-                  />  <Image className='rounded-lg max-w-[25%]'
+                  />  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
                     src={"/assets/tabs/trendy_explainer_toolkit.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
-                  />  <Image className='rounded-lg max-w-[25%]'
+                  />  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
                     src={"/assets/tabs/informative_social_pack.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
-                  />  <Image className=' rounded-lg max-w-[25%]'
+                  />  <Image className=' rounded-lg sm:max-w-[100%] max-w-[25%]'
                     src={"/assets/tabs/luminous_neon_visualizer.jpg"}
                     width={400}
                     height={400}
@@ -305,49 +305,49 @@ const Tab = () => {
 
             <section className="sm:gap-[48px] flex-row justify-around sm:justify-evenly">
               <div className='gap-[30px]'>
-                <div className='flex justify-center gap-5 mb-10'>
-                  <Image className='rounded-lg max-w-[25%]'
+                <div className='flex justify-start gap-5 sm:overflow-x-auto mb-10'>
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
                     src={"/assets/tabs/3d_explainer_video_toolkit.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
                   />
-                  <Image className='rounded-lg max-w-[25%]'
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
                     src={"/assets/tabs/factory-of-3d-animations.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
                   />
-                  <Image className='rounded-lg max-w-[25%]'
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
                     src={"/assets/tabs/trendy_typography_pack.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
                   />
-                  <Image className='rounded-lg max-w-[25%]'
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
                     src={"/assets/tabs/whiteboard_animation_toolkit.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
                   />
                 </div>
-                <div className='flex justify-center gap-5'>
-                  <Image className='rounded-lg max-w-[25%]'
+                <div className='flex justify-start gap-5 sm:overflow-x-auto'>
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
                     src={"/assets/tabs/album_promo_visualizer.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
-                  />  <Image className='rounded-lg max-w-[25%]'
+                  />  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
                     src={"/assets/tabs/trendy_explainer_toolkit.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
-                  />  <Image className='rounded-lg max-w-[25%]'
+                  />  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
                     src={"/assets/tabs/informative_social_pack.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
-                  />  <Image className=' rounded-lg max-w-[25%]'
+                  />  <Image className=' rounded-lg sm:max-w-[100%] max-w-[25%]'
                     src={"/assets/tabs/luminous_neon_visualizer.jpg"}
                     width={400}
                     height={400}
@@ -359,49 +359,49 @@ const Tab = () => {
 
             <section className="sm:gap-[48px] flex-row justify-around sm:justify-evenly">
               <div className='gap-[30px]'>
-                <div className='flex justify-center gap-5 mb-10'>
-                  <Image className='rounded-lg max-w-[25%]'
+                <div className='flex justify-start gap-5 sm:overflow-x-auto mb-10'>
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
                     src={"/assets/tabs/3d_explainer_video_toolkit.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
                   />
-                  <Image className='rounded-lg max-w-[25%]'
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
                     src={"/assets/tabs/factory-of-3d-animations.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
                   />
-                  <Image className='rounded-lg max-w-[25%]'
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
                     src={"/assets/tabs/trendy_typography_pack.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
                   />
-                  <Image className='rounded-lg max-w-[25%]'
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
                     src={"/assets/tabs/whiteboard_animation_toolkit.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
                   />
                 </div>
-                <div className='flex justify-center gap-5'>
-                  <Image className='rounded-lg max-w-[25%]'
+                <div className='flex justify-start gap-5 sm:overflow-x-auto'>
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
                     src={"/assets/tabs/album_promo_visualizer.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
-                  />  <Image className='rounded-lg max-w-[25%]'
+                  />  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
                     src={"/assets/tabs/trendy_explainer_toolkit.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
-                  />  <Image className='rounded-lg max-w-[25%]'
+                  />  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
                     src={"/assets/tabs/informative_social_pack.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
-                  />  <Image className=' rounded-lg max-w-[25%]'
+                  />  <Image className=' rounded-lg sm:max-w-[100%] max-w-[25%]'
                     src={"/assets/tabs/luminous_neon_visualizer.jpg"}
                     width={400}
                     height={400}
