@@ -9,10 +9,10 @@ const Tab = () => {
   }, []);
   return (
     <Fragment>
-      <div className="md:mb-[130px] sm:mb-[200px] mt-[50px] mb-[400px] font-montserrat sm:px-10 xl:px-36 px-0 relative z-10">
+      <div className="md:mb-[130px] sm:mb-[290px] mt-[50px] mb-[400px] font-montserrat sm:px-5 xl:px-0 px-0 relative z-10">
         <div className=" md:mb-0 md:py-[1rem] py-[3rem] sm:py-[1rem] mb-10">
           <h5 className="font-bold leading-none sm:text-[25px] sm:text-center md:text-[30px] mt-10 sm:m-6 md:m-3 text-[40px] text-[#252E48] sm:font-extrabold text-center">
-            Powerful explainer and promotional videos, <br /> broadcast quality intros and outros, music <br /> visualizations, and much more.
+            Powerful explainer and promotional <br /> videos, broadcast quality intros and <br /> outros, music  visualizations, and much more.
           </h5>
         </div>
 
@@ -23,7 +23,7 @@ const Tab = () => {
           <input type="radio" id="tab4" name="tab-control" />
           <input type="radio" id="tab5" name="tab-control" />
           <input type="radio" id="tab6" name="tab-control" />
-          <ul className="flex sm:gap-[6px] flex-row mb-2.5 pl-0 justify-between items-end flex-wrap list-none">
+          <ul className="w-full flex sm:gap-[6px] flex-row mb-2.5 pl-0 justify-between items-end flex-wrap list-none">
             <li className="box-border flex-1 w-1/4 text-center px-2.5">
               <label
                 htmlFor="tab1"
@@ -87,7 +87,7 @@ const Tab = () => {
           </div>
           <div className="content mt-[30px]">
             <section className="sm:gap-[48px] flex-row justify-around sm:justify-evenly">
-              <div className='grid grid-cols-4 gap-[30px]'>
+              <div className='grid sm:grid-cols-3 grid-cols-4 gap-[30px]'>
                 <Image className='rounded-lg'
                   src={"/assets/tabs/3d_explainer_video_toolkit.jpg"}
                   width={300}
@@ -138,7 +138,7 @@ const Tab = () => {
             </section>
 
             <section className="sm:gap-[48px] flex-row justify-around sm:justify-evenly">
-              <div className='grid grid-cols-4 gap-[30px]'>
+              <div className='grid sm:grid-cols-3 grid-cols-4 gap-[30px]'>
                 <Image className=' rounded-lg'
                   src={"/assets/tabs/3d_explainer_video_toolkit.jpg"}
                   width={300}
@@ -189,7 +189,7 @@ const Tab = () => {
             </section>
 
             <section className="sm:gap-[48px] flex-row justify-around sm:justify-evenly">
-              <div className='grid grid-cols-4 gap-[30px]'>
+              <div className='grid sm:grid-cols-3 grid-cols-4 gap-[30px]'>
                 <Image className=' rounded-lg'
                   src={"/assets/tabs/3d_explainer_video_toolkit.jpg"}
                   width={300}
@@ -240,7 +240,7 @@ const Tab = () => {
             </section>
 
             <section className="sm:gap-[48px] flex-row justify-around sm:justify-evenly">
-              <div className='grid grid-cols-4 gap-[30px]'>
+              <div className='grid sm:grid-cols-3 grid-cols-4 gap-[30px]'>
                 <Image className=' rounded-lg'
                   src={"/assets/tabs/3d_explainer_video_toolkit.jpg"}
                   width={300}
@@ -290,9 +290,8 @@ const Tab = () => {
               </div>
             </section>
 
-
             <section className="sm:gap-[48px] flex-row justify-around sm:justify-evenly">
-              <div className='grid grid-cols-4 gap-[30px]'>
+              <div className='grid sm:grid-cols-3 grid-cols-4 gap-[30px]'>
                 <Image className=' rounded-lg'
                   src={"/assets/tabs/3d_explainer_video_toolkit.jpg"}
                   width={300}
@@ -342,9 +341,8 @@ const Tab = () => {
               </div>
             </section>
 
-
             <section className="sm:gap-[48px] flex-row justify-around sm:justify-evenly">
-              <div className='grid grid-cols-4 gap-[30px]'>
+              <div className='sm:flex sm:items-center sm:justify-center grid sm:grid-cols-3 grid-cols-4 gap-[30px]'>
                 <Image className=' rounded-lg'
                   src={"/assets/tabs/3d_explainer_video_toolkit.jpg"}
                   width={300}
