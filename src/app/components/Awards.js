@@ -10,7 +10,8 @@ import Image from 'next/image';
 
 export default function Award() {
   return (
-    <><div className="font-montserrat xl:max-w-[1440px] bg-[#000213] mx-auto">
+    <>
+    <div className="font-montserrat xl:max-w-[1440px] bg-[#000213] mx-auto">
         <div className="p-10 sm:p-0">
           <h6 className="sm:text-[40px] sm:text-center sm:mt-10 sm:ml-[5px] ml-[60px] md:text-[50px] sm:font-extrabold text-white lg:text-[60px] text-[85px] font-bold">Our Awards</h6>
         </div>

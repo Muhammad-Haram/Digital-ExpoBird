@@ -21,7 +21,7 @@ const Navbar = () => {
           <nav className="py-6 w-full flex items-center justify-between md:space-x-5">
             <Image src={"/assets/logov2.jpg"} width={150} height={0} alt="pic" />
             <div className="flex items-center">
-              <ul className="flex items-center xl:space-x-10 lg:space-x-10 list-none space-x-3 cursor-pointer">
+              <ul className="flex items-center gap-[40px] xl:space-x-10 lg:space-x-10 list-none space-x-3 cursor-pointer">
                 <Link href="/">
                   <li className="md:text-[14px] text-white text-[16px] font-semibold">
                     Home

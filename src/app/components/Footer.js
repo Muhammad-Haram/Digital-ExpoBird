@@ -84,7 +84,7 @@ const Footer = () => {
 
         </div>
 
-        <div className='lg:hidden md:hidden sm:hidden bg-[#363636] #6e2bff w-3/6 h-full absolute right-0 top-0 z-[-1]'></div>
+        <div className='lg:hidden md:hidden sm:hidden bg-[#000213] #6e2bff w-3/6 h-full absolute right-0 top-0 z-[-1]'></div>
 
       </div >
     </>
