@@ -53,12 +53,12 @@ const Navbar = () => {
           <ul className="py-6 shadow-sm shadow-[#0045e5]">
             <Link href="/services/digital"><li className=" text-[26px] font-semibold leading-none  underline mb-2 px-4" onClick={closeMobileMenu}>
               Digital Marketing Services
-              <video height={50} width={100} className="py-3 ml-[100px]" alt="" autoPlay={true}
+              {/* <video height={50} width={100} className="py-3 ml-[100px]" alt="" autoPlay={true}
                     muted={true}
                     loop={true}
                     src="/assets/social media.webm" type="video/webm" >
                     Your browser does not support the video tag.
-                  </video>
+                  </video> */}
             </li></Link>
           </ul>
           <ul className="py-6 shadow-sm shadow-[#0045e5] ">
