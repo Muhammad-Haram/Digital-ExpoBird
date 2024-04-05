@@ -690,7 +690,7 @@ body {
   align-items: center;
   justify-content: space-around;
   gap: var(--gap);
-  min-width: 100%;
+  min-width: 70%;
   animation: scroll-x var(--duration) linear infinite;
 }
 
