@@ -87,308 +87,326 @@ const Tab = () => {
           </div>
           <div className="content mt-[30px]">
             <section className="sm:gap-[48px] flex-row justify-around sm:justify-evenly">
-              <div className='grid sm:grid-cols-3 grid-cols-4 gap-[30px]'>
+              <div className='gap-[30px]'>
+                <div className='flex justify-center gap-5 mb-10'>
                 <Image className='rounded-lg'
                   src={"/assets/tabs/3d_explainer_video_toolkit.jpg"}
-                  width={300}
-                  height={300}
+                  width={400}
+                  height={400}
                   alt="pic"
                 />
                 <Image className='rounded-lg'
                   src={"/assets/tabs/factory-of-3d-animations.jpg"}
-                  width={300}
-                  height={300}
+                  width={400}
+                  height={400}
                   alt="pic"
                 />
                 <Image className='rounded-lg'
                   src={"/assets/tabs/trendy_typography_pack.jpg"}
-                  width={300}
-                  height={300}
+                  width={400}
+                  height={400}
                   alt="pic"
                 />
                 <Image className='rounded-lg'
                   src={"/assets/tabs/whiteboard_animation_toolkit.jpg"}
-                  width={300}
-                  height={300}
+                  width={400}
+                  height={400}
                   alt="pic"
                 />
-
-                <Image className='rounded-lg'
+                 </div>
+                 <div className='flex justify-center gap-5'>
+                <Image className='rounded-lg '
                   src={"/assets/tabs/album_promo_visualizer.jpg"}
-                  width={300}
-                  height={300}
+                  width={400}
+                  height={400}
                   alt="pic"
                 />  <Image className='rounded-lg'
                   src={"/assets/tabs/trendy_explainer_toolkit.jpg"}
-                  width={300}
-                  height={300}
+                  width={400}
+                  height={400}
                   alt="pic"
                 />  <Image className='rounded-lg'
                   src={"/assets/tabs/informative_social_pack.jpg"}
-                  width={300}
-                  height={300}
+                  width={400}
+                  height={400}
                   alt="pic"
                 />  <Image className=' rounded-lg'
                   src={"/assets/tabs/luminous_neon_visualizer.jpg"}
-                  width={300}
-                  height={300}
+                  width={400}
+                  height={400}
                   alt="pic"
                 />
+                 </div>
               </div>
             </section>
 
             <section className="sm:gap-[48px] flex-row justify-around sm:justify-evenly">
-              <div className='grid sm:grid-cols-3 grid-cols-4 gap-[30px]'>
-                <Image className=' rounded-lg'
+              <div className='gap-[30px]'>
+                <div className='flex justify-center gap-5 mb-10'>
+                <Image className='rounded-lg'
                   src={"/assets/tabs/3d_explainer_video_toolkit.jpg"}
-                  width={300}
-                  height={300}
+                  width={400}
+                  height={400}
                   alt="pic"
                 />
-                <Image className=' rounded-lg'
+                <Image className='rounded-lg'
                   src={"/assets/tabs/factory-of-3d-animations.jpg"}
-                  width={300}
-                  height={300}
+                  width={400}
+                  height={400}
                   alt="pic"
                 />
-                <Image className=' rounded-lg'
+                <Image className='rounded-lg'
                   src={"/assets/tabs/trendy_typography_pack.jpg"}
-                  width={300}
-                  height={300}
+                  width={400}
+                  height={400}
                   alt="pic"
                 />
-                <Image className=' rounded-lg'
+                <Image className='rounded-lg'
                   src={"/assets/tabs/whiteboard_animation_toolkit.jpg"}
-                  width={300}
-                  height={300}
+                  width={400}
+                  height={400}
                   alt="pic"
                 />
-
-                <Image className=' rounded-lg'
+                 </div>
+                 <div className='flex justify-center gap-5'>
+                <Image className='rounded-lg '
                   src={"/assets/tabs/album_promo_visualizer.jpg"}
-                  width={300}
-                  height={300}
+                  width={400}
+                  height={400}
                   alt="pic"
-                />  <Image className=' rounded-lg'
+                />  <Image className='rounded-lg'
                   src={"/assets/tabs/trendy_explainer_toolkit.jpg"}
-                  width={300}
-                  height={300}
+                  width={400}
+                  height={400}
                   alt="pic"
-                />  <Image className=' rounded-lg'
+                />  <Image className='rounded-lg'
                   src={"/assets/tabs/informative_social_pack.jpg"}
-                  width={300}
-                  height={300}
+                  width={400}
+                  height={400}
                   alt="pic"
                 />  <Image className=' rounded-lg'
                   src={"/assets/tabs/luminous_neon_visualizer.jpg"}
-                  width={300}
-                  height={300}
+                  width={400}
+                  height={400}
                   alt="pic"
                 />
+                 </div>
               </div>
             </section>
 
             <section className="sm:gap-[48px] flex-row justify-around sm:justify-evenly">
-              <div className='grid sm:grid-cols-3 grid-cols-4 gap-[30px]'>
-                <Image className=' rounded-lg'
+              <div className='gap-[30px]'>
+                <div className='flex justify-center gap-5 mb-10'>
+                <Image className='rounded-lg'
                   src={"/assets/tabs/3d_explainer_video_toolkit.jpg"}
-                  width={300}
-                  height={300}
+                  width={400}
+                  height={400}
                   alt="pic"
                 />
-                <Image className=' rounded-lg'
+                <Image className='rounded-lg'
                   src={"/assets/tabs/factory-of-3d-animations.jpg"}
-                  width={300}
-                  height={300}
+                  width={400}
+                  height={400}
                   alt="pic"
                 />
-                <Image className=' rounded-lg'
+                <Image className='rounded-lg'
                   src={"/assets/tabs/trendy_typography_pack.jpg"}
-                  width={300}
-                  height={300}
+                  width={400}
+                  height={400}
                   alt="pic"
                 />
-                <Image className=' rounded-lg'
+                <Image className='rounded-lg'
                   src={"/assets/tabs/whiteboard_animation_toolkit.jpg"}
-                  width={300}
-                  height={300}
+                  width={400}
+                  height={400}
                   alt="pic"
                 />
-
-                <Image className=' rounded-lg'
+                 </div>
+                 <div className='flex justify-center gap-5'>
+                <Image className='rounded-lg '
                   src={"/assets/tabs/album_promo_visualizer.jpg"}
-                  width={300}
-                  height={300}
+                  width={400}
+                  height={400}
                   alt="pic"
-                />  <Image className=' rounded-lg'
+                />  <Image className='rounded-lg'
                   src={"/assets/tabs/trendy_explainer_toolkit.jpg"}
-                  width={300}
-                  height={300}
+                  width={400}
+                  height={400}
                   alt="pic"
-                />  <Image className=' rounded-lg'
+                />  <Image className='rounded-lg'
                   src={"/assets/tabs/informative_social_pack.jpg"}
-                  width={300}
-                  height={300}
+                  width={400}
+                  height={400}
                   alt="pic"
                 />  <Image className=' rounded-lg'
                   src={"/assets/tabs/luminous_neon_visualizer.jpg"}
-                  width={300}
-                  height={300}
+                  width={400}
+                  height={400}
                   alt="pic"
                 />
+                 </div>
               </div>
             </section>
 
             <section className="sm:gap-[48px] flex-row justify-around sm:justify-evenly">
-              <div className='grid sm:grid-cols-3 grid-cols-4 gap-[30px]'>
-                <Image className=' rounded-lg'
+              <div className='gap-[30px]'>
+                <div className='flex justify-center gap-5 mb-10'>
+                <Image className='rounded-lg'
                   src={"/assets/tabs/3d_explainer_video_toolkit.jpg"}
-                  width={300}
-                  height={300}
+                  width={400}
+                  height={400}
                   alt="pic"
                 />
-                <Image className=' rounded-lg'
+                <Image className='rounded-lg'
                   src={"/assets/tabs/factory-of-3d-animations.jpg"}
-                  width={300}
-                  height={300}
+                  width={400}
+                  height={400}
                   alt="pic"
                 />
-                <Image className=' rounded-lg'
+                <Image className='rounded-lg'
                   src={"/assets/tabs/trendy_typography_pack.jpg"}
-                  width={300}
-                  height={300}
+                  width={400}
+                  height={400}
                   alt="pic"
                 />
-                <Image className=' rounded-lg'
+                <Image className='rounded-lg'
                   src={"/assets/tabs/whiteboard_animation_toolkit.jpg"}
-                  width={300}
-                  height={300}
+                  width={400}
+                  height={400}
                   alt="pic"
                 />
-
-                <Image className=' rounded-lg'
+                 </div>
+                 <div className='flex justify-center gap-5'>
+                <Image className='rounded-lg '
                   src={"/assets/tabs/album_promo_visualizer.jpg"}
-                  width={300}
-                  height={300}
+                  width={400}
+                  height={400}
                   alt="pic"
-                />  <Image className=' rounded-lg'
+                />  <Image className='rounded-lg'
                   src={"/assets/tabs/trendy_explainer_toolkit.jpg"}
-                  width={300}
-                  height={300}
+                  width={400}
+                  height={400}
                   alt="pic"
-                />  <Image className=' rounded-lg'
+                />  <Image className='rounded-lg'
                   src={"/assets/tabs/informative_social_pack.jpg"}
-                  width={300}
-                  height={300}
+                  width={400}
+                  height={400}
                   alt="pic"
                 />  <Image className=' rounded-lg'
                   src={"/assets/tabs/luminous_neon_visualizer.jpg"}
-                  width={300}
-                  height={300}
+                  width={400}
+                  height={400}
                   alt="pic"
                 />
+                 </div>
               </div>
             </section>
 
             <section className="sm:gap-[48px] flex-row justify-around sm:justify-evenly">
-              <div className='grid sm:grid-cols-3 grid-cols-4 gap-[30px]'>
-                <Image className=' rounded-lg'
+              <div className='gap-[30px]'>
+                <div className='flex justify-center gap-5 mb-10'>
+                <Image className='rounded-lg'
                   src={"/assets/tabs/3d_explainer_video_toolkit.jpg"}
-                  width={300}
-                  height={300}
+                  width={400}
+                  height={400}
                   alt="pic"
                 />
-                <Image className=' rounded-lg'
+                <Image className='rounded-lg'
                   src={"/assets/tabs/factory-of-3d-animations.jpg"}
-                  width={300}
-                  height={300}
+                  width={400}
+                  height={400}
                   alt="pic"
                 />
-                <Image className=' rounded-lg'
+                <Image className='rounded-lg'
                   src={"/assets/tabs/trendy_typography_pack.jpg"}
-                  width={300}
-                  height={300}
+                  width={400}
+                  height={400}
                   alt="pic"
                 />
-                <Image className=' rounded-lg'
+                <Image className='rounded-lg'
                   src={"/assets/tabs/whiteboard_animation_toolkit.jpg"}
-                  width={300}
-                  height={300}
+                  width={400}
+                  height={400}
                   alt="pic"
                 />
-
-                <Image className=' rounded-lg'
+                 </div>
+                 <div className='flex justify-center gap-5'>
+                <Image className='rounded-lg '
                   src={"/assets/tabs/album_promo_visualizer.jpg"}
-                  width={300}
-                  height={300}
+                  width={400}
+                  height={400}
                   alt="pic"
-                />  <Image className=' rounded-lg'
+                />  <Image className='rounded-lg'
                   src={"/assets/tabs/trendy_explainer_toolkit.jpg"}
-                  width={300}
-                  height={300}
+                  width={400}
+                  height={400}
                   alt="pic"
-                />  <Image className=' rounded-lg'
+                />  <Image className='rounded-lg'
                   src={"/assets/tabs/informative_social_pack.jpg"}
-                  width={300}
-                  height={300}
+                  width={400}
+                  height={400}
                   alt="pic"
                 />  <Image className=' rounded-lg'
                   src={"/assets/tabs/luminous_neon_visualizer.jpg"}
-                  width={300}
-                  height={300}
+                  width={400}
+                  height={400}
                   alt="pic"
                 />
+                 </div>
               </div>
             </section>
 
             <section className="sm:gap-[48px] flex-row justify-around sm:justify-evenly">
-              <div className='sm:flex sm:items-center sm:justify-center grid sm:grid-cols-3 grid-cols-4 gap-[30px]'>
-                <Image className=' rounded-lg'
+              <div className='gap-[30px]'>
+                <div className='flex justify-center gap-5 mb-10'>
+                <Image className='rounded-lg'
                   src={"/assets/tabs/3d_explainer_video_toolkit.jpg"}
-                  width={300}
-                  height={300}
+                  width={400}
+                  height={400}
                   alt="pic"
                 />
-                <Image className=' rounded-lg'
+                <Image className='rounded-lg'
                   src={"/assets/tabs/factory-of-3d-animations.jpg"}
-                  width={300}
-                  height={300}
+                  width={400}
+                  height={400}
                   alt="pic"
                 />
-                <Image className=' rounded-lg'
+                <Image className='rounded-lg'
                   src={"/assets/tabs/trendy_typography_pack.jpg"}
-                  width={300}
-                  height={300}
+                  width={400}
+                  height={400}
                   alt="pic"
                 />
-                <Image className=' rounded-lg'
+                <Image className='rounded-lg'
                   src={"/assets/tabs/whiteboard_animation_toolkit.jpg"}
-                  width={300}
-                  height={300}
+                  width={400}
+                  height={400}
                   alt="pic"
                 />
-
-                <Image className=' rounded-lg'
+                 </div>
+                 <div className='flex justify-center gap-5'>
+                <Image className='rounded-lg '
                   src={"/assets/tabs/album_promo_visualizer.jpg"}
-                  width={300}
-                  height={300}
+                  width={400}
+                  height={400}
                   alt="pic"
-                />  <Image className=' rounded-lg'
+                />  <Image className='rounded-lg'
                   src={"/assets/tabs/trendy_explainer_toolkit.jpg"}
-                  width={300}
-                  height={300}
+                  width={400}
+                  height={400}
                   alt="pic"
-                />  <Image className=' rounded-lg'
+                />  <Image className='rounded-lg'
                   src={"/assets/tabs/informative_social_pack.jpg"}
-                  width={300}
-                  height={300}
+                  width={400}
+                  height={400}
                   alt="pic"
                 />  <Image className=' rounded-lg'
                   src={"/assets/tabs/luminous_neon_visualizer.jpg"}
-                  width={300}
-                  height={300}
+                  width={400}
+                  height={400}
                   alt="pic"
                 />
+                 </div>
               </div>
             </section>
           </div>

@@ -1976,7 +1976,7 @@ body {
 
 .tabs input[name=tab-control]:nth-of-type(1):checked~ul>li:nth-child(1)>label {
   cursor: default;
-  color: #252E48 !important;
+  color: #00A256 !important;
 }
 
 .tabs input[name=tab-control]:nth-of-type(1):checked~.slider {
