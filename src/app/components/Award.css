@@ -47,11 +47,13 @@ body {
 .swiper-pagination-bullet-active{
   background: white;
   margin-top: 10px;
+  display: none;
 }
 
 .swiper-pagination-bullet{
   background: white;
   margin-top: 10px;
+  display: none;
 }
 
 .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{
