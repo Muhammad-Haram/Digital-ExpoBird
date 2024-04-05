@@ -18,7 +18,7 @@ body {
 
 .swiper {
   width: 100%;
-  background-color:#000213;
+  background-color: #000213;
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -44,22 +44,39 @@ body {
 }
 
 
-.swiper-pagination-bullet-active{
+/* .swiper-pagination-bullet-active {
   background: white;
   margin-top: 10px;
-  display: none;
 }
 
-.swiper-pagination-bullet{
+.swiper-pagination-bullet {
   background: white;
   margin-top: 10px;
-  display: none;
+} */
+
+
+@media only screen and (max-width: 420px) {
+  .swiper-pagination-bullet {
+    background: white;
+    margin-top: 10px;
+  }
 }
 
-.swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{
+@media only screen and (max-width: 420px) {
+  .swiper-pagination-bullet-active {
+    background: white;
+    margin-top: 10px;
+  }
+}
+
+
+
+.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
   bottom: -4px;
 }
 
-.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
   margin: 7px;
 }

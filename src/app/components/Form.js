@@ -40,7 +40,7 @@ const Form = () => {
 
                         <button className='rounded-[50px] bg-[#7B41F9] font-bold text-[16px] text-white
                         mt-[20px] px-[40px] py-[10px] mb-[25px] shadow-lg shadow-[#aaacd3]'> Submit
-                             <span>
+                            <span>
                                 <Image
                                     src={"/assets/Send.svg"}
                                     width={21}
