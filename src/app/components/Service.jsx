@@ -38,8 +38,8 @@ const Service = () => {
                     <div>
 
                       <p className="text-[25px] text-[#252E48] font-bold pl-5 md:text-center" data-inviewport >Web Development</p>
-                      <p className="sm:text-[13px] text-[18px] text-[#545F7E] max-w-[70%] pl-5 py-3 md:text-center">We imagine and build experiences and businesses that win hearts and realize the future. Explore how we work.</p>
-                      <p className="text-[18px] text-[#252E48] font-medium max-w-[70%] pl-5 py-3 md:text-center">Replaces: Your website subscription
+                      <p className="sm:text-[13px] text-[18px] text-[#545F7E]  pl-5 py-3 md:text-center">We imagine and build experiences and businesses that win hearts and realize the future. Explore how we work.</p>
+                      <p className="text-[18px] text-[#252E48] font-medium  pl-5 py-3 md:text-center">Replaces: Your website subscription
                       </p>
 
                     </div>
@@ -62,8 +62,8 @@ const Service = () => {
                     <div>
 
                       <p className="text-[25px] text-[#252E48] font-bold pl-5 md:text-center" data-inviewport >Mobile App Development</p>
-                      <p className="sm:text-[13px] text-[18px] text-[#545F7E] max-w-[70%] pl-5 py-3 md:text-center">We imagine and build experiences and businesses that win hearts and realize the future. Explore how we work.</p>
-                      <p className="text-[18px] text-[#252E48] font-medium max-w-[70%] pl-5 py-3 md:text-center">Replaces: Your website subscription
+                      <p className="sm:text-[13px] text-[18px] text-[#545F7E]  pl-5 py-3 md:text-center">We imagine and build experiences and businesses that win hearts and realize the future. Explore how we work.</p>
+                      <p className="text-[18px] text-[#252E48] font-medium  pl-5 py-3 md:text-center">Replaces: Your website subscription
                       </p>
 
                     </div>
@@ -108,8 +108,8 @@ const Service = () => {
                     <div>
 
                       <p className="text-[25px] text-[#252E48] font-bold pl-5 md:text-center" data-inviewport >Digital Marketing</p>
-                      <p className="sm:text-[13px] text-[18px] text-[#545F7E] max-w-[70%] pl-5 py-3 md:text-center">We imagine and build experiences and businesses that win hearts and realize the future. Explore how we work.</p>
-                      <p className="text-[18px] text-[#252E48] font-medium max-w-[70%] pl-5 py-3 md:text-center">Replaces: Your website subscription
+                      <p className="sm:text-[13px] text-[18px] text-[#545F7E] pl-5 py-3 md:text-center">We imagine and build experiences and businesses that win hearts and realize the future. Explore how we work.</p>
+                      <p className="text-[18px] text-[#252E48] font-medium pl-5 py-3 md:text-center">Replaces: Your website subscription
                       </p>
 
                     </div>
