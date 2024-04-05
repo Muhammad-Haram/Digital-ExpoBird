@@ -4,11 +4,12 @@ import Image from 'next/image';
 const FeatureWork = () => {
   return (
     <>
-      <div className="bg-[#000213] font-montserrat overflow-hidden">
+      <div className="bg-[#000213] sm:w-full font-montserrat">
         <div className="xl:max-w-[1440px] mx-auto">
-          <div className="p-[9rem] sm:p-10">
+          <div className="p-[9rem] md:p-[3rem] lg:p-[7rem] sm:p-10">
+
             <div className="sm:grid-cols-1 md:grid md:grid-cols-1 grid grid-cols-2 items-center">
-              <h6 className="sm:text-[40px] lg:ml-[-20px] sm:text-center sm:mt-10 sm:mb-6 md:text-[60px] sm:space-x-10 sm:flex sm:items-center sm:m-auto text-[80px] text-[#FFFFFF] max-w-[400px]  leading-none font-bold sm:pb-20 pb-24">
+              <h6 className="sm:text-[30px] lg:ml-[-20px] sm:text-center sm:mt-10 sm:mb-6 md:text-[60px] sm:space-x-10 sm:flex sm:items-center sm:m-auto text-[80px] text-[#FFFFFF] max-w-[400px]  leading-none font-bold sm:pb-20 md:pb-0 pb-24">
                 Featured works
                 <span>
                   <div className="sm:hidden ml-[0px] sm:right-[45px] right-[25px] sm:mt-[20px] md:ml-12 md:mt-4 ico animated">
@@ -36,28 +37,29 @@ const FeatureWork = () => {
                   </div>
                 </span>
               </h6>
-              <p className="sm:-mt-20 sm:text-center sm:text-[20px] text-[25px] text-white max-w-[450px] pb-24 sm:flex sm:items-center sm:m-auto">We are a team of design and research experts with over ten years of experience in improving businesses and peoples lives through smart design solutions</p>
+              <p className="sm:-mt-20 sm:text-center sm:text-[16px] text-[25px] text-white max-w-[450px] pb-24 sm:flex sm:items-center sm:m-auto">We are a team of design and research experts with over ten years of experience in improving businesses and peoples lives through smart design solutions</p>
             </div>
+
             <div className="sm:grid sm:grid-cols-2 grid grid-cols-2 gap-8">
               <div className="max-w-[605px]">
                 <Image src={"/assets/work01.png"} width={350} height={0} className="rounded-[50px] sm:rounded-[20px]" alt="pic" />
-                <p className="sm:text-center ml-[100px] sm:leading-none text-white sm:text-[20px] mt-8 font-montserrat text-[25px] font-semibold">Zorro University</p>
+                <p className="sm:text-center sm:ml-[0px] md:text-center md:ml-0 ml-[100px] sm:leading-none text-white sm:text-[20px] mt-8 font-montserrat text-[25px] font-semibold">Zorro University</p>
               </div>
               <div className="max-w-[605px] ml-auto">
                 <Image src={"/assets/work02.png"} width={350} height={0} className="rounded-[50px] sm:rounded-[20px]" alt="pic" />
-                <p className="sm:text-center sm:leading-none sm:text-[20px] text-white mt-8 font-montserrat text-[25px] font-semibold ml-[100px]">Gemmie Skin Care</p>
+                <p className="sm:text-center sm:leading-none sm:text-[20px] text-white mt-8 font-montserrat text-[25px] font-semibold sm:ml-[0px] md:ml-[0px] md:text-center ml-[100px]">Gemmie Skin Care</p>
               </div>
               <div className="max-w-[605px]">
                 <Image src={"/assets/work03.png"} width={350} height={0} className="rounded-[50px] sm:rounded-[20px]" alt="pic" />
-                <p className="sm:text-center sm:text-[20px] text-white mt-8 font-montserrat text-[25px] font-semibold ml-[100px]">Doodle food</p>
+                <p className="sm:text-center sm:text-[20px] text-white mt-8 font-montserrat text-[25px] font-semibold sm:ml-[0px] md:ml-0 md:text-center ml-[100px]">Doodle food</p>
               </div>
               <div className="max-w-[605px] ml-auto">
                 <Image src={"/assets/work04.png"} width={350} height={0} className="rounded-[50px] sm:rounded-[20px]" alt="pic" />
-                <p className="sm:text-center sm:text-[20px] text-white mt-8 font-montserrat text-[25px] font-semibold ml-[100px]">Doodle food</p>
+                <p className="sm:text-center sm:text-[20px] text-white mt-8 font-montserrat text-[25px] font-semibold sm:ml-[0px] md:ml-0 md:text-center ml-[100px]">Doodle food</p>
               </div>
             </div>
             <div className='text-center'>
-              <button className="text-white mb-10 mt-6 text-[17px] buttonv2 rounded-[70px] py-4 px-6 font-semibold">
+              <button className="text-white mb-10 mt-12 text-[17px] buttonv2 rounded-[70px] py-4 px-6 font-semibold">
                 Hire Us{" "}
                 <span>
                   <Image
