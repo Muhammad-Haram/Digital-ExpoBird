@@ -52,7 +52,13 @@ const Navbar = () => {
         <div className='justify-center grid grid-cols-2 mt-[120px] ml-10 gap-[90px] font-montserrat text-center'>
           <ul className="py-6 shadow-sm shadow-[#0045e5]">
             <Link href="/services/digital"><li className=" text-[26px] font-semibold leading-none  underline mb-2 px-4" onClick={closeMobileMenu}>
-              Digital Marketing Services<iframe src="https://lottie.host/embed/eeae0c22-62c1-4193-bb05-6eecb908a0eb/sP7mK937g0.lottie"></iframe>
+              Digital Marketing Services
+              <video height={50} width={100} className="py-3 ml-[100px]" alt="" autoPlay={true}
+                    muted={true}
+                    loop={true}
+                    src="/assets/social media.webm" type="video/webm" >
+                    Your browser does not support the video tag.
+                  </video>
             </li></Link>
           </ul>
           <ul className="py-6 shadow-sm shadow-[#0045e5] ">
