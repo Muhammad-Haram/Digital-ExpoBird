@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 import { VideoHTMLAttributes } from 'react'
 
 const Form = () => {
@@ -37,8 +38,18 @@ const Form = () => {
 
                         <br />
 
-                        <button className='rounded-[50px] bg-[#7b41f9] font-bold text-[16px] text-white
-                        mt-[20px] px-[40px] py-[10px] mb-[25px] shadow-lg shadow-[#aaacd3]'>Submit</button>
+                        <button className='rounded-[50px] bg-[#7B41F9] font-bold text-[16px] text-white
+                        mt-[20px] px-[40px] py-[10px] mb-[25px] shadow-lg shadow-[#aaacd3]'> Submit
+                             <span>
+                                <Image
+                                    src={"/assets/Send.svg"}
+                                    width={21}
+                                    height={20}
+                                    className="inline invert brightness-0"
+                                    alt="pic"
+                                />
+                            </span>
+                        </button>
                     </form>
                 </div>
             </div>
