@@ -39,7 +39,7 @@ const Tab = () => {
                 role="button"
                 className="text-black hover:text-yellow-500 transition ease-in-out select-none cursor-pointer block truncate text-medium sm:text-[20px] text-[17px]"
               >
-                Logos
+                Logo
               </label>
             </li>
             <li className="box-border flex-1 text-center px-2.5">
