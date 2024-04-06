@@ -16,14 +16,14 @@ const Tab = () => {
           </h5>
         </div>
 
-        <div className="tabs bg-transparent sm:w-[100%] w-[90%] min-w-[240px] h-[250px] sm:p-0 p-12 relative left-1/2 -translate-x-2/4">
+        <div className="tabs bg-transparent sm:w-[100%] w-[90%] min-w-[240px] h-[250px] sm:p-0 p-12 relative left-[48%] -translate-x-2/4">
           <input type="radio" id="tab1" name="tab-control" />
           <input type="radio" id="tab2" name="tab-control" />
           <input type="radio" id="tab3" name="tab-control" />
           <input type="radio" id="tab4" name="tab-control" />
           <input type="radio" id="tab5" name="tab-control" />
           <input type="radio" id="tab6" name="tab-control" />
-          <ul className="w-full flex sm:gap-[6px] flex-row mb-2.5 pl-0 justify-between items-end flex-wrap list-none">
+          <ul className="w-full flex sm:gap-[6px] flex-row mb-[5px] pl-0 justify-between items-end flex-wrap list-none">
             <li className="box-border flex-1 w-1/4 text-center px-2.5">
               <label
                 htmlFor="tab1"
@@ -150,6 +150,7 @@ const Tab = () => {
                     height={400}
                     alt="pic"
                   />
+
                   <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
                     src={"/assets/tabs/factory-of-3d-animations.jpg"}
                     width={400}
