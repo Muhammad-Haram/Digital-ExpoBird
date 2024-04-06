@@ -41,43 +41,43 @@ const Footer = () => {
               <div>
                 <div className='sm:mb-[20px] flex items-center gap-[10px] mb-[30px]'>
                   <div className='sm:hidden h-[20px] w-[2px] bg-white'></div>
-                  <p className='font-bold text-[18px]'>Digital Marketing</p>
+                  <p className='font-bold text-[14px]'>Digital Marketing</p>
                 </div>
-                <p className='mb-[10px] text-[16px] sm:text-[16px]'>About Us</p>
-                <p className='mb-[10px] text-[16px] sm:text-[16px]'>Services</p>
-                <p className='mb-[10px] text-[16px] sm:text-[16px]'>Case studies</p>
-                <p className='mb-[10px] text-[16px] sm:text-[16px]'>Partners</p>
-                <p className='mb-[10px] text-[16px] sm:text-[16px]'>Blog</p>
-                <p className='mb-[10px] text-[16px] sm:text-[16px]'>Terms and Condition</p>
-                <p className='mb-[10px] text-[16px] sm:text-[16px]'>Privacy Policy</p>
+                <p className='mb-[10px] text-[16px] sm:text-[14px]'>About Us</p>
+                <p className='mb-[10px] text-[16px] sm:text-[14px]'>Services</p>
+                <p className='mb-[10px] text-[16px] sm:text-[14px]'>Case studies</p>
+                <p className='mb-[10px] text-[16px] sm:text-[14px]'>Partners</p>
+                <p className='mb-[10px] text-[16px] sm:text-[14px]'>Blog</p>
+                <p className='mb-[10px] text-[16px] sm:text-[14px]'>Terms and Condition</p>
+                <p className='mb-[10px] text-[16px] sm:text-[14px]'>Privacy Policy</p>
               </div>
 
               <div>
                 <div className='sm:mb-[20px] flex items-center gap-[10px] mb-[30px]'>
                   <div className='sm:hidden h-[20px] w-[2px] bg-white'></div>
-                  <p className='font-bold text-[18px]'>Web Development</p>
+                  <p className='font-bold text-[14px]'>Web Development</p>
                 </div>
-                <p className='mb-[10px] text-[16px] sm:text-[16px]'>About Us</p>
-                <p className='mb-[10px] text-[16px] sm:text-[16px]'>Services</p>
-                <p className='mb-[10px] text-[16px] sm:text-[16px]'>Case studies</p>
-                <p className='mb-[10px] text-[16px] sm:text-[16px]'>Partners</p>
-                <p className='mb-[10px] text-[16px] sm:text-[16px]'>Blog</p>
-                <p className='mb-[10px] text-[16px] sm:text-[16px]'>Terms and Condition</p>
-                <p className='mb-[10px] text-[16px] sm:text-[16px]'>Privacy Policy</p>
+                <p className='mb-[10px] text-[16px] sm:text-[14px]'>About Us</p>
+                <p className='mb-[10px] text-[16px] sm:text-[14px]'>Services</p>
+                <p className='mb-[10px] text-[16px] sm:text-[14px]'>Case studies</p>
+                <p className='mb-[10px] text-[16px] sm:text-[14px]'>Partners</p>
+                <p className='mb-[10px] text-[16px] sm:text-[14px]'>Blog</p>
+                <p className='mb-[10px] text-[16px] sm:text-[14px]'>Terms and Condition</p>
+                <p className='mb-[10px] text-[16px] sm:text-[14px]'>Privacy Policy</p>
               </div>
 
               <div>
                 <div className='sm:mb-[20px] flex items-center gap-[10px] mb-[30px]'>
                   <div className='sm:hidden h-[20px] w-[2px] bg-white'></div>
-                  <p className='font-bold text-[18px]'>Mobile Development</p>
+                  <p className='font-bold text-[14px]'>Mobile Development</p>
                 </div>
-                <p className='mb-[10px] text-[16px] sm:text-[16px]'>About Us</p>
-                <p className='mb-[10px] text-[16px] sm:text-[16px]'>Services</p>
-                <p className='mb-[10px] text-[16px] sm:text-[16px]'>Case studies</p>
-                <p className='mb-[10px] text-[16px] sm:text-[16px]'>Partners</p>
-                <p className='mb-[10px] text-[16px] sm:text-[16px]'>Blog</p>
-                <p className='mb-[10px] text-[16px] sm:text-[16px]'>Terms and Condition</p>
-                <p className='mb-[10px] text-[16px] sm:text-[16px]'>Privacy Policy</p>
+                <p className='mb-[10px] text-[16px] sm:text-[14px]'>About Us</p>
+                <p className='mb-[10px] text-[16px] sm:text-[14px]'>Services</p>
+                <p className='mb-[10px] text-[16px] sm:text-[14px]'>Case studies</p>
+                <p className='mb-[10px] text-[16px] sm:text-[14px]'>Partners</p>
+                <p className='mb-[10px] text-[16px] sm:text-[14px]'>Blog</p>
+                <p className='mb-[10px] text-[16px] sm:text-[14px]'>Terms and Condition</p>
+                <p className='mb-[10px] text-[16px] sm:text-[14px]'>Privacy Policy</p>
               </div>
 
             </div>
