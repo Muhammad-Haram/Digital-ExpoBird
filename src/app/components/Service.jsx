@@ -9,7 +9,7 @@ const Service = () => {
       <div className="bg-[#ffffff] overflow-x-hidden font-montserrat w-full">
         <div className="sm:p-[40px] md:pt-2 xl:px-10 px-10 relative z-10">
           <div className="py-[2rem]">
-            <h5 className="sm:text-[25px] text-[40px] text-center font-bold font-montserrat text-[#252E48] md:flex md:justify-center">All your design tools <br /> in one place with one simple subscription</h5>
+            <h5 className="sm:text-[25px] text-[35px] text-center font-bold font-montserrat text-[#252E48] md:flex md:justify-center">All your design tools <br /> in one place with one simple subscription</h5>
             <p className='sm:text-[14px] sm:mt-[10px] text-[20px] text-center text-[#545F7E]'>Your advanced marketing tool to save time, enhance your presence, and boost awareness.
             </p>
           </div>

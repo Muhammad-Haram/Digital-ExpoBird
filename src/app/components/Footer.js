@@ -8,7 +8,7 @@ const Footer = () => {
       <div className='sm:pb-[20px] font-montserrat sm:pt-[20px] sm:px-[20px] md:pb-[30px] md:pt-[30px] md:px-[30px] lg:pb-[40px] lg:pt-[50px] lg:px-[50px]  w-full bg-[#000213] #000213 relative z-[-2] text-white pb-[50px] pt-[70px] p-[100px] box-border' >
 
         <div className=''>
-          <h1 className='sm:mb-[20px] sm:ml-0 sm:text-[30px] md:text-[40px] md:ml-0 lg:text-[40px] lg:ml-0 ml-[40px] mb-[40px] text-[#ffffff00] text-[80px] font-montserrat font-bold tracking-[1px]'
+          <h1 className='font-montserrat sm:text-[30px] md:text-[60px] text-[70px] font-black sm:mb-[20px] sm:ml-0 md:ml-0 lg:text-[40px] lg:ml-0 ml-[40px] mb-[40px] text-[#ffffff00] tracking-[1px]'
             style={{ WebkitTextStroke: "1px #9C9C9C" }}>Design.Build.Launch</h1>
 
           <div className='sm:items-start sm:flex-col sm:gap-[40px] md:flex-col md:items-start md:gap-[40px] lg:flex-col lg:items-start lg:gap-[40px] flex w-full items-center justify-between'>

@@ -18,7 +18,7 @@ const Form = () => {
                 </div>
 
                 <div className='sm:w-full md:w-full w-2/5 flex flex-col'>
-                    <h1 className='text-black font-semibold text-[30px] mb-[20px]'>Request a Callback</h1>
+                    <h1 className='font-montserrat text-black font-bold text-[40px] mb-[20px]'>Request a Callback</h1>
                     <p className='text-[#6d7c90] font-medium text-[16px] mb-[20px]'>Send us an email if you have any questions about your work and of its marketing to ExpoBird</p>
                     <form>
                         <input className='md:w-11/12 bg-[#f0f2f4] w-10/12 outline-none text-black drop-shadow-sm pl-3 p-2 mb-[25px] shadow-lg shadow-[#aaacd3]' placeholder='Your Name' />

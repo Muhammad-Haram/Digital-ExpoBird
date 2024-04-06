@@ -13,7 +13,7 @@ const HouseTechnology = () => {
       <div className='font-montserrat md:hidden'>
         <div className="bg-[#000213] sm:grid sm:px-2 sm:grid-cols-1 grid grid-cols-2 items-center lg:px-10 gap-x-24 px-48">
           <div>
-            <p className="sm:text-[40px] lg:text-[85px] sm:text-center sm:mt-[40px] mt-[60px] sm:ml-[15px] md:text-[50px] text-[85px] text-white font-bold leading-none">
+            <p className="sm:text-[30px] md:text-[60px] text-[80px] font-black sm:text-center sm:mt-[40px] mt-[60px] sm:ml-[15px] text-white leading-none">
               In House Technology
             </p>
             <p className="sm:text-[16px] lg:text-[17px] sm:text-center text-2xl sm:ml-[15px] text-white mt-11">
@@ -44,7 +44,7 @@ const HouseTechnology = () => {
               />
             </div>
             <div>
-              <p className=" sm:text-[30px] mt-[40px] lg:text-[60px] sm:text-center text-[80px] text-white font-bold leading-none">
+              <p className="sm:text-[30px] md:text-[60px] text-[80px] font-black mt-[40px] lg:text-[60px] sm:text-center text-white leading-none">
                 In House Technology
               </p>
               <p className="sm:text-[16px] lg:text-[20px] sm:text-center text-2xl text-white mt-11">
@@ -55,7 +55,7 @@ const HouseTechnology = () => {
             </div>
           </div>
           <div className="max-w-[1200px] mx-auto mt-[30px]">
-            <p className="sm:text-[30px] lg:text-[50px] text-[80px] font-black text-white text-center">
+            <p className="sm:text-[30px] md:text-[60px] text-[80px] font-black text-white text-center">
               Get Free Seo{" "}
               <span className="underlined-svg relative">Audit</span>
             </p>
