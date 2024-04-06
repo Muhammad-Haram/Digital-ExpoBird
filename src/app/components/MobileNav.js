@@ -9,7 +9,7 @@ const MobileNav = () => {
 	return (
 		<Fragment>
 			{
-				<Image className='sm:relative translate-x-0.5 sm:right-6 sm:top-5 md:top-5 md:right-6  xl:hidden 2xl:hidden cursor-pointer md:float-right sm:float-right lg:float-right lg:top-5 lg:right-6 lg:relative' src={showNav ? "/assets/01fe6447fbd35f56bf5b36ce07e7fabb.jpg" : "/assets/269dd16fa1f5ff51accd09e7e1602267.png"} height={35} width={35} alt='pic1' onClick={() => setShowNav(!showNav)} />
+				<Image className='sm:relative translate-x-0.5 sm:right-6 sm:top-5 md:top-5 md:right-6 md:relative xl:hidden 2xl:hidden cursor-pointer md:float-right sm:float-right lg:float-right lg:top-5 lg:right-6 lg:relative' src={showNav ? "/assets/01fe6447fbd35f56bf5b36ce07e7fabb.jpg" : "/assets/269dd16fa1f5ff51accd09e7e1602267.png"} height={35} width={35} alt='pic1' onClick={() => setShowNav(!showNav)} />
 			}
 			<Image className='xl:hidden lg:mb-[20px] 2xl:hidden relative top-5 left-5' src="/assets/download (1).png" height={70} width={70} alt='logo' />
 			{
