@@ -16,17 +16,30 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="sm:hidden md:px-8 px-24 font-montserrat flex items-center justify-center bg-[#000213] relative">
+      <div className="sm:hidden md:hidden lg:hidden md:px-8 px-24 font-montserrat flex items-center justify-center bg-[#000213] relative">
         <div className="w-full">
           <nav className="py-6 w-full flex items-center justify-between md:space-x-5">
             <Image src={"/assets/logov2.jpg"} width={150} height={0} alt="pic" />
             <div className="flex items-center">
-              <ul className="flex items-center gap-[40px] xl:space-x-10 lg:space-x-10 list-none space-x-3 cursor-pointer">
+              <ul className="flex items-center gap-[40px] xl:space-x-10 list-none space-x-3 cursor-pointer">
                 <Link href="/">
                   <li className="md:text-[14px] text-white text-[16px] font-semibold">
                     Home
                   </li>
                 </Link>
+
+                <Link href="/">
+                  <li className="md:text-[14px] text-white text-[16px] font-semibold">
+                    About Us
+                  </li>
+                </Link>
+
+                <Link href="/">
+                  <li className="md:text-[14px] text-white text-[16px] font-semibold">
+                    Portfolio
+                  </li>
+                </Link>
+
                 <li className="md:text-[14px] text-white text-[16px] font-semibold" onClick={toggleMobileMenu}>
                   Services
                 </li>
@@ -50,48 +63,91 @@ const Navbar = () => {
           &times;
         </button>
         <div className='justify-center grid grid-cols-2 mt-[120px] ml-10 gap-[90px] font-montserrat text-center'>
-          <ul className="py-6 shadow-sm shadow-[#0045e5]">
-            <Link href="/services/digital"><li className=" text-[26px] font-semibold leading-none  underline mb-2 px-4" onClick={closeMobileMenu}>
-              Digital Marketing Services
-              {/* <video height={50} width={100} className="py-3 ml-[100px]" alt="" autoPlay={true}
+          <ul className="py-10 shadow-sm shadow-[#0045e5]">
+          <video height={50} width={100} className="py-3 ml-[100px] -mb-[60px]" alt="" autoPlay={true}
                     muted={true}
                     loop={true}
-                    src="/assets/social media.webm" type="video/webm" >
+                    src="/assets/graphic-maker.mp4" type="video/webm" >
                     Your browser does not support the video tag.
-                  </video> */}
+                  </video>
+            <Link href="/services/digital"><li className=" text-[26px] font-semibold leading-none  underline mb-2 px-4" onClick={closeMobileMenu}>
+              Digital Marketing Services
             </li></Link>
           </ul>
-          <ul className="py-6 shadow-sm shadow-[#0045e5] ">
+       
+          <ul className="py-10 shadow-sm shadow-[#0045e5] ">
+          <video height={50} width={100} className="py-3 ml-[100px] -mb-[60px]" alt="" autoPlay={true}
+                    muted={true}
+                    loop={true}
+                    src="/assets/graphic-maker.mp4" type="video/webm" >
+                    Your browser does not support the video tag.
+                  </video>
             <Link href="/services/social"><li className="text-[26px] leading-none font-semibold underline  mb-2 px-4" onClick={closeMobileMenu}>
-              Social Media Marketing Services
+              Social Media Marketing
             </li></Link>
           </ul>
-          <ul className="py-6 shadow-sm shadow-[#0045e5] ">
+          <ul className="py-10 shadow-sm shadow-[#0045e5] ">
+          <video height={50} width={100} className="py-3 ml-[100px] -mb-[60px]" alt="" autoPlay={true}
+                    muted={true}
+                    loop={true}
+                    src="/assets/graphic-maker.mp4" type="video/webm" >
+                    Your browser does not support the video tag.
+                  </video>
             <Link href="/services/web"><li className="text-[26px] leading-none font-semibold  underline mb-2 px-4" onClick={closeMobileMenu}>
-              Web Design & Development Services
+              Web Development Services
             </li></Link>
           </ul>
-          <ul className="py-6 shadow-sm shadow-[#0045e5] ">
+          <ul className="py-10 shadow-sm shadow-[#0045e5] ">
+          <video height={50} width={100} className="py-3 ml-[100px] -mb-[60px]" alt="" autoPlay={true}
+                    muted={true}
+                    loop={true}
+                    src="/assets/graphic-maker.mp4" type="video/webm" >
+                    Your browser does not support the video tag.
+                  </video>
             <Link href="/services/commerce"><li className="text-[26px] leading-none font-semibold underline  mb-2 px-4" onClick={closeMobileMenu}>
-              E-commerce Development Services
+              E-commerce Development
             </li></Link>
           </ul>
-          <ul className="py-6 shadow-sm shadow-[#0045e5]">
+          <ul className="py-10 shadow-sm shadow-[#0045e5]">
+          <video height={50} width={100} className="py-3 ml-[100px] -mb-[60px]" alt="" autoPlay={true}
+                    muted={true}
+                    loop={true}
+                    src="/assets/graphic-maker.mp4" type="video/webm" >
+                    Your browser does not support the video tag.
+                  </video>
             <Link href="/services/video"><li className="text-[26px] leading-none font-semibold underline  mb-2 px-4" onClick={closeMobileMenu}>
               Video Production Services
             </li></Link>
           </ul>
-          <ul className="py-6 shadow-sm shadow-[#0045e5]">
+          <ul className="py-10 shadow-sm shadow-[#0045e5]">
+          <video height={50} width={100} className="py-3 ml-[100px] -mb-[60px]" alt="" autoPlay={true}
+                    muted={true}
+                    loop={true}
+                    src="/assets/graphic-maker.mp4" type="video/webm" >
+                    Your browser does not support the video tag.
+                  </video>
             <Link href="/services/animation"><li className="text-[26px] leading-none font-semibold underline  mb-2 px-4" onClick={closeMobileMenu}>
               Animation Services
             </li></Link>
           </ul>
-          <ul className="py-6 shadow-sm shadow-[#0045e5]">
+          <ul className="py-10 shadow-sm shadow-[#0045e5]">
+          <video height={50} width={100} className="py-3 ml-[100px] -mb-[60px]" alt="" autoPlay={true}
+                    muted={true}
+                    loop={true}
+                    src="/assets/graphic-maker.mp4" type="video/webm" >
+                    Your browser does not support the video tag.
+                  </video>
             <Link href="/services/ui"><li className="text-[26px] leading-none font-semibold underline  mb-2 px-4" onClick={closeMobileMenu}>
               UI/UX Design Services
             </li></Link>
           </ul>
-          <ul className="py-6 shadow-sm shadow-[#0045e5]">
+          <ul className="py-10 shadow-sm shadow-[#0045e5]">
+          <video height={50} width={100} className="py-3 ml-[100px] -mb-[60px]" alt="" autoPlay={true}
+                    muted={true}
+                    loop={true}
+                    src="/assets/graphic-maker.mp4" type="video/webm" >
+                    Your browser does not support the video tag.
+                  </video>
             <Link href="/services/appdev"><li className="text-[26px] leading-none font-semibold underline  mb-4 px-4" onClick={closeMobileMenu}>
               Application Development Services
             </li></Link>
