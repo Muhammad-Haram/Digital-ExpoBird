@@ -9,7 +9,7 @@ const FeatureWork = () => {
           <div className="p-[9rem] md:p-[3rem] lg:p-[7rem] sm:p-10">
 
             <div className="sm:grid-cols-1 md:grid md:grid-cols-1 grid grid-cols-2 items-center">
-              <h6 className="sm:text-[30px] lg:ml-[-20px] sm:text-center sm:mt-10 sm:mb-6 md:text-[60px] sm:space-x-10 sm:flex sm:items-center sm:m-auto text-[80px] text-[#FFFFFF] max-w-[400px]  leading-none font-bold sm:pb-20 md:pb-0 pb-24">
+              <h6 className="sm:text-[30px] md:text-[60px] text-[70px] font-black lg:ml-[-20px] sm:text-center sm:mt-10 sm:mb-6 sm:space-x-10 sm:flex sm:items-center sm:m-auto text-[#FFFFFF] max-w-[400px]  leading-none sm:pb-20 md:pb-0 pb-24">
                 Featured works
                 <span>
                   <div className="sm:hidden ml-[0px] sm:right-[45px] right-[25px] sm:mt-[20px] md:ml-12 md:mt-4 ico animated">

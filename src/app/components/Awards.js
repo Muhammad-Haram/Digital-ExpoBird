@@ -13,7 +13,7 @@ export default function Award() {
     <>
     <div className="font-montserrat xl:max-w-[1440px] bg-[#000213] mx-auto">
         <div className="p-10 sm:p-0">
-          <h6 className="sm:text-[40px] sm:text-center sm:mt-10 sm:ml-[5px] ml-[60px] md:text-[50px] sm:font-extrabold text-white lg:text-[60px] text-[85px] font-bold">Our Awards</h6>
+          <h6 className="sm:text-[30px] md:text-[60px] text-[80px] font-black sm:text-center sm:mt-10 sm:ml-[5px] ml-[60px] sm:font-extrabold text-white lg:text-[60px]">Our Awards</h6>
         </div>
       <Swiper
         effect={'coverflow'}

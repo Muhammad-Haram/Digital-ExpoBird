@@ -8,7 +8,7 @@ const Hero = () => {
         <div className="w-full">
           <section className="py-24 sm:py-0 md:py-30 w-full sm flex items-center justify-center">
             <div className="text-center">
-              <h6 className="sm:text-[45px] sm:leading-tight md:text-[50px] lg:text-[60px] inline text-[80px] text-white font-black"><span className="text-[#7B41F9]">I</span>nnovate, <span className="text-[#7B41F9]">E</span>ngage, <span className="text-[#7B41F9]">S</span>ucceed
+              <h6 className="sm:text-[30px] md:text-[60px] text-[70px] font-black sm:leading-tight lg:text-[60px] inline text-white"><span className="text-[#7B41F9]">I</span>nnovate, <span className="text-[#7B41F9]">E</span>ngage, <span className="text-[#7B41F9]">S</span>ucceed
               </h6>
               <div className="sm:pb-[15px] mt-[24px] sm:mt-[20px] md:text-[30px] rotating-words text-center relative">
                 <span className="sm:text-[30px] md:text-[30px] lg:text-[45px] block text-[42px] text-white font-black bg-[#7B41F9] rounded-[60px] left-1/2 -translate-x-2/4 px-8 md:px-10 md:mb-[20px]">Search Engine <br />Optimization</span>
