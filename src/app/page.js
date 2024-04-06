@@ -1,5 +1,4 @@
 import React from 'react';
-import Head from 'next/head';
 import Hero from './components/Hero';
 import FeatureWork from './components/FeatureWork';
 import HeroBackground from './components/HeroBackground';
@@ -17,17 +16,9 @@ import Form from './components/Form';
 import MobileNav from './components/MobileNav';
 
 
-const Home = ({ description }) => {
+const Home = () => {
   return (
     <>
-      <Head>
-        <title> Digital || Expo </title>
-        <meta
-          name='description'
-          content={description}
-          key="desc"
-        />
-      </Head>
       <Navbar />
       <MobileNav />
       <Hero />
@@ -41,7 +32,7 @@ const Home = ({ description }) => {
       <Tech />
       <HouseTechnology />
       <Tab />
-      <Form/>
+      <Form />
       <Footer />
 
     </>
