@@ -62,7 +62,7 @@ const Navbar = () => {
         <button onClick={toggleMobileMenu} className="text-white absolute right-28 text-6xl cursor-pointer -mr-[98px]">
           &times;
         </button>
-        <div className='justify-center grid grid-cols-2 mt-[120px] ml-10 gap-[90px] font-montserrat text-center'>
+        <div className='justify-center grid grid-cols-2 mt-[70px] ml-10 gap-[40px] font-montserrat text-center'>
           <ul className="py-10 shadow-sm shadow-[#0045e5]">
           <video height={50} width={100} className="py-3 ml-[100px] -mb-[60px]" alt="" autoPlay={true}
                     muted={true}
@@ -82,8 +82,8 @@ const Navbar = () => {
                     src="/assets/graphic-maker.mp4" type="video/webm" >
                     Your browser does not support the video tag.
                   </video>
-            <Link href="/services/social"><li className="text-[26px] leading-none font-semibold underline  mb-2 px-4" onClick={closeMobileMenu}>
-              Social Media Marketing
+            <Link href="/services/social"><li className="text-[26px] leading-none font-semibold underline  mb-2 px-4 ml-[60px]" onClick={closeMobileMenu}>
+              Social Media Marketing Services
             </li></Link>
           </ul>
           <ul className="py-10 shadow-sm shadow-[#0045e5] ">
@@ -104,8 +104,8 @@ const Navbar = () => {
                     src="/assets/graphic-maker.mp4" type="video/webm" >
                     Your browser does not support the video tag.
                   </video>
-            <Link href="/services/commerce"><li className="text-[26px] leading-none font-semibold underline  mb-2 px-4" onClick={closeMobileMenu}>
-              E-commerce Development
+            <Link href="/services/commerce"><li className="text-[26px] leading-none font-semibold underline  mb-2 px-4 ml-[60px]" onClick={closeMobileMenu}>
+              E-commerce Development Services
             </li></Link>
           </ul>
           <ul className="py-10 shadow-sm shadow-[#0045e5]">
@@ -148,7 +148,7 @@ const Navbar = () => {
                     src="/assets/graphic-maker.mp4" type="video/webm" >
                     Your browser does not support the video tag.
                   </video>
-            <Link href="/services/appdev"><li className="text-[26px] leading-none font-semibold underline  mb-4 px-4" onClick={closeMobileMenu}>
+            <Link href="/services/appdev"><li className="text-[26px] leading-none font-semibold underline  mb-4 px-4 ml-[60px]" onClick={closeMobileMenu}>
               Application Development Services
             </li></Link>
           </ul>
