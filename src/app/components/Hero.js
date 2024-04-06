@@ -22,13 +22,13 @@ const Hero = () => {
                 Let’s Talk <span><Image src={"/assets/Send-arrow.svg"} className="inline" width={21} height={20} alt="pic" /></span>
               </button>
               <div className="sm:ml-[20px] sm:mb-[40px] sm:mt-[40px] md:mt-10 mx-auto mt-10 ">
-                <div className="gap-20 sm:grid sm:grid-cols-3 lg:grid lg:grid-cols-5 sm:flex-wrap  md:grid md:grid-cols-3 sm:gap-10 flex items-center justify-center">
+                <div className="gap-20 sm:grid sm:grid-cols-3 lg:grid lg:grid-cols-3 sm:flex-wrap  md:grid md:grid-cols-3 sm:gap-10 flex items-center justify-center">
                   <Image src={"/assets/partner05.png"} height={25} width={150} alt="pic" />
                   <Image src={"/assets/partner02.png"} height={25} width={89} alt="pic" />
                   <Image src={"/assets/partner06.png"} height={35} width={119} alt="pic" />
                   <Image src={"/assets/partner01.png"} height={31} width={124} alt="pic" />
                   <Image src={"/assets/partner01.png"} height={32} width={125} alt="pic" />
-                  <Image className='lg:hidden' src={"/assets/partner03.png"} height={33} width={126} alt="pic" />
+                  <Image src={"/assets/partner03.png"} height={33} width={126} alt="pic" />
                 </div>
               </div>
             </div>
