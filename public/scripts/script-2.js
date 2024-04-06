@@ -234,25 +234,25 @@ timeln2.to(".sideChangeImage", {
   scrub : 1
 });
 
-const textAnimation1 = new SplitType('p.textAnimation1', { types: 'chars' });
-const chars1 = textAnimation1.chars;
-const textAnimation2 = new SplitType('p.textAnimation2', { types: 'chars' });
-const chars2 = textAnimation2.chars;
+// const textAnimation1 = new SplitType('p.textAnimation1', { types: 'chars' });
+// const chars1 = textAnimation1.chars;
+// const textAnimation2 = new SplitType('p.textAnimation2', { types: 'chars' });
+// const chars2 = textAnimation2.chars;
 
-const textAnimation3 = new SplitType('p.textAnimation3', { types: 'chars' });
-const chars3 = textAnimation3.chars;
-const textAnimation4 = new SplitType('p.textAnimation4', { types: 'chars' });
-const chars4 = textAnimation4.chars;
+// const textAnimation3 = new SplitType('p.textAnimation3', { types: 'chars' });
+// const chars3 = textAnimation3.chars;
+// const textAnimation4 = new SplitType('p.textAnimation4', { types: 'chars' });
+// const chars4 = textAnimation4.chars;
 
-const textAnimation5 = new SplitType('p.textAnimation5', { types: 'chars' });
-const chars5 = textAnimation5.chars;
-const textAnimation6 = new SplitType('p.textAnimation6', { types: 'chars' });
-const chars6 = textAnimation6.chars;
+// const textAnimation5 = new SplitType('p.textAnimation5', { types: 'chars' });
+// const chars5 = textAnimation5.chars;
+// const textAnimation6 = new SplitType('p.textAnimation6', { types: 'chars' });
+// const chars6 = textAnimation6.chars;
 
-const textAnimation7 = new SplitType('p.textAnimation7', { types: 'chars' });
-const chars7 = textAnimation7.chars;
-const textAnimation8 = new SplitType('p.textAnimation8', { types: 'chars' });
-const chars8 = textAnimation8.chars;
+// const textAnimation7 = new SplitType('p.textAnimation7', { types: 'chars' });
+// const chars7 = textAnimation7.chars;
+// const textAnimation8 = new SplitType('p.textAnimation8', { types: 'chars' });
+// const chars8 = textAnimation8.chars;
 
 let tln1 = gsap.timeline({
   scrollTrigger: {
