@@ -24,7 +24,7 @@ const Tab = () => {
           <input type="radio" id="tab5" name="tab-control" />
           <input type="radio" id="tab6" name="tab-control" />
           <ul className="w-full flex sm:gap-[6px] flex-row mb-[5px] pl-0 justify-between items-end flex-wrap list-none">
-            <li className="box-border flex-1 w-1/4 text-center px-2.5">
+            <li className="box-border flex-1 text-center px-2.5">
               <label
                 htmlFor="tab1"
                 role="button"
@@ -33,7 +33,7 @@ const Tab = () => {
                 Videos
               </label>
             </li>
-            <li className="box-border flex-1 w-1/4 text-center px-2.5">
+            <li className="box-border flex-1 text-center px-2.5">
               <label
                 htmlFor="tab2"
                 role="button"
@@ -42,7 +42,7 @@ const Tab = () => {
                 Logos
               </label>
             </li>
-            <li className="box-border flex-1 w-1/4 text-center px-2.5">
+            <li className="box-border flex-1 text-center px-2.5">
               <label
                 htmlFor="tab3"
                 role="button"
@@ -51,7 +51,7 @@ const Tab = () => {
                 Mockups
               </label>
             </li>
-            <li className="box-border flex-1 w-1/4 text-center px-2.5">
+            <li className="box-border flex-1 text-center px-2.5">
               <label
                 htmlFor="tab4"
                 role="button"
@@ -61,7 +61,7 @@ const Tab = () => {
               </label>
             </li>
 
-            <li className="box-border flex-1 w-1/4 text-center px-2.5">
+            <li className="box-border flex-1 text-center px-2.5">
               <label
                 htmlFor="tab5"
                 role="button"
@@ -71,7 +71,7 @@ const Tab = () => {
               </label>
             </li>
 
-            <li className="box-border flex-1 w-1/4 text-center px-2.5">
+            <li className="box-border flex-1 text-center px-2.5">
               <label
                 htmlFor="tab6"
                 role="button"
@@ -90,25 +90,26 @@ const Tab = () => {
             <section className="sm:gap-[48px] flex-row justify-around sm:justify-evenly">
               <div className='gap-[30px] box-border'>
                 <div className='flex justify-start gap-5 sm:overflow-x-auto mb-10'>
-                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
                     src={"/assets/tabs/3d_explainer_video_toolkit.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
                   />
-                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
+                  
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
                     src={"/assets/tabs/factory-of-3d-animations.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
                   />
-                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
                     src={"/assets/tabs/trendy_typography_pack.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
                   />
-                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
                     src={"/assets/tabs/whiteboard_animation_toolkit.jpg"}
                     width={400}
                     height={400}
@@ -116,22 +117,22 @@ const Tab = () => {
                   />
                 </div>
                 <div className='flex justify-start gap-5 sm:overflow-x-auto'>
-                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
                     src={"/assets/tabs/album_promo_visualizer.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
-                  />  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
+                  />  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
                     src={"/assets/tabs/trendy_explainer_toolkit.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
-                  />  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
+                  />  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
                     src={"/assets/tabs/informative_social_pack.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
-                  />  <Image className=' rounded-lg sm:max-w-[100%] max-w-[25%]'
+                  />  <Image className=' rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
                     src={"/assets/tabs/luminous_neon_visualizer.jpg"}
                     width={400}
                     height={400}
@@ -144,26 +145,26 @@ const Tab = () => {
             <section className="sm:gap-[48px] flex-row justify-around sm:justify-evenly">
               <div className='gap-[30px]'>
                 <div className='flex justify-start gap-5 sm:overflow-x-auto mb-10'>
-                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
                     src={"/assets/tabs/3d_explainer_video_toolkit.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
                   />
 
-                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
                     src={"/assets/tabs/factory-of-3d-animations.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
                   />
-                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
                     src={"/assets/tabs/trendy_typography_pack.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
                   />
-                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
                     src={"/assets/tabs/whiteboard_animation_toolkit.jpg"}
                     width={400}
                     height={400}
@@ -171,22 +172,22 @@ const Tab = () => {
                   />
                 </div>
                 <div className='flex justify-start gap-5 sm:overflow-x-auto'>
-                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
                     src={"/assets/tabs/album_promo_visualizer.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
-                  />  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
+                  />  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
                     src={"/assets/tabs/trendy_explainer_toolkit.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
-                  />  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
+                  />  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
                     src={"/assets/tabs/informative_social_pack.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
-                  />  <Image className=' rounded-lg sm:max-w-[100%] max-w-[25%]'
+                  />  <Image className=' rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
                     src={"/assets/tabs/luminous_neon_visualizer.jpg"}
                     width={400}
                     height={400}
@@ -199,25 +200,25 @@ const Tab = () => {
             <section className="sm:gap-[48px] flex-row justify-around sm:justify-evenly">
               <div className='gap-[30px]'>
                 <div className='flex justify-start gap-5 sm:overflow-x-auto mb-10'>
-                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
                     src={"/assets/tabs/3d_explainer_video_toolkit.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
                   />
-                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
                     src={"/assets/tabs/factory-of-3d-animations.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
                   />
-                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
                     src={"/assets/tabs/trendy_typography_pack.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
                   />
-                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
                     src={"/assets/tabs/whiteboard_animation_toolkit.jpg"}
                     width={400}
                     height={400}
@@ -225,22 +226,22 @@ const Tab = () => {
                   />
                 </div>
                 <div className='flex justify-start gap-5 sm:overflow-x-auto'>
-                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
                     src={"/assets/tabs/album_promo_visualizer.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
-                  />  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
+                  />  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
                     src={"/assets/tabs/trendy_explainer_toolkit.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
-                  />  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
+                  />  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
                     src={"/assets/tabs/informative_social_pack.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
-                  />  <Image className=' rounded-lg sm:max-w-[100%] max-w-[25%]'
+                  />  <Image className=' rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
                     src={"/assets/tabs/luminous_neon_visualizer.jpg"}
                     width={400}
                     height={400}
@@ -253,25 +254,25 @@ const Tab = () => {
             <section className="sm:gap-[48px] flex-row justify-around sm:justify-evenly">
               <div className='gap-[30px]'>
                 <div className='flex justify-start gap-5 sm:overflow-x-auto mb-10'>
-                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
                     src={"/assets/tabs/3d_explainer_video_toolkit.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
                   />
-                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
                     src={"/assets/tabs/factory-of-3d-animations.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
                   />
-                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
                     src={"/assets/tabs/trendy_typography_pack.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
                   />
-                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
                     src={"/assets/tabs/whiteboard_animation_toolkit.jpg"}
                     width={400}
                     height={400}
@@ -279,22 +280,22 @@ const Tab = () => {
                   />
                 </div>
                 <div className='flex justify-start gap-5 sm:overflow-x-auto'>
-                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
                     src={"/assets/tabs/album_promo_visualizer.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
-                  />  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
+                  />  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
                     src={"/assets/tabs/trendy_explainer_toolkit.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
-                  />  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
+                  />  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
                     src={"/assets/tabs/informative_social_pack.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
-                  />  <Image className=' rounded-lg sm:max-w-[100%] max-w-[25%]'
+                  />  <Image className=' rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
                     src={"/assets/tabs/luminous_neon_visualizer.jpg"}
                     width={400}
                     height={400}
@@ -307,25 +308,25 @@ const Tab = () => {
             <section className="sm:gap-[48px] flex-row justify-around sm:justify-evenly">
               <div className='gap-[30px]'>
                 <div className='flex justify-start gap-5 sm:overflow-x-auto mb-10'>
-                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
                     src={"/assets/tabs/3d_explainer_video_toolkit.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
                   />
-                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
                     src={"/assets/tabs/factory-of-3d-animations.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
                   />
-                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
                     src={"/assets/tabs/trendy_typography_pack.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
                   />
-                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
                     src={"/assets/tabs/whiteboard_animation_toolkit.jpg"}
                     width={400}
                     height={400}
@@ -333,22 +334,22 @@ const Tab = () => {
                   />
                 </div>
                 <div className='flex justify-start gap-5 sm:overflow-x-auto'>
-                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
                     src={"/assets/tabs/album_promo_visualizer.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
-                  />  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
+                  />  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
                     src={"/assets/tabs/trendy_explainer_toolkit.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
-                  />  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
+                  />  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
                     src={"/assets/tabs/informative_social_pack.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
-                  />  <Image className=' rounded-lg sm:max-w-[100%] max-w-[25%]'
+                  />  <Image className=' rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
                     src={"/assets/tabs/luminous_neon_visualizer.jpg"}
                     width={400}
                     height={400}
@@ -361,25 +362,25 @@ const Tab = () => {
             <section className="sm:gap-[48px] flex-row justify-around sm:justify-evenly">
               <div className='gap-[30px]'>
                 <div className='flex justify-start gap-5 sm:overflow-x-auto mb-10'>
-                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
                     src={"/assets/tabs/3d_explainer_video_toolkit.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
                   />
-                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
                     src={"/assets/tabs/factory-of-3d-animations.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
                   />
-                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
                     src={"/assets/tabs/trendy_typography_pack.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
                   />
-                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
                     src={"/assets/tabs/whiteboard_animation_toolkit.jpg"}
                     width={400}
                     height={400}
@@ -387,22 +388,22 @@ const Tab = () => {
                   />
                 </div>
                 <div className='flex justify-start gap-5 sm:overflow-x-auto'>
-                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
+                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
                     src={"/assets/tabs/album_promo_visualizer.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
-                  />  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
+                  />  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
                     src={"/assets/tabs/trendy_explainer_toolkit.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
-                  />  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%]'
+                  />  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
                     src={"/assets/tabs/informative_social_pack.jpg"}
                     width={400}
                     height={400}
                     alt="pic"
-                  />  <Image className=' rounded-lg sm:max-w-[100%] max-w-[25%]'
+                  />  <Image className=' rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
                     src={"/assets/tabs/luminous_neon_visualizer.jpg"}
                     width={400}
                     height={400}
