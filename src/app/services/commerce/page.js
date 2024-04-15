@@ -21,7 +21,7 @@ const Home = () => {
       <div className='bg-hero-image w-full overflow-hidden'>
         <Navbar />
         <MobileNav />
-        <DigitalHero text1={"Social Media Marketing"} />
+        <DigitalHero text1={"E Commerce Development"} />
       </div>
       <Service />
       <FeatureWork />

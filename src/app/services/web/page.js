@@ -1,26 +1,41 @@
-// import Script from 'next/script';
-// import DigitalHero from '@/app/components/DigitalHero';
-// import Navbar from '@/app/components/Navbar';
-// import FeatureWork from '@/app/components/FeatureWork';
-// import Footer from '@/app/components/Footer';
-// import Driven from '@/app/components/Driven';
+import Award from '@/app/components/Awards';
+import DigitalHero from '@/app/components/DigitalHero';
+import Driven from '@/app/components/Driven';
+import FeatureWork from '@/app/components/FeatureWork';
+import Footer from '@/app/components/Footer';
+import Form from '@/app/components/Form';
+import HouseTechnology from '@/app/components/HouseTechnology';
+import MobileNav from '@/app/components/MobileNav';
+import Navbar from '@/app/components/Navbar';
+import Clients from '@/app/components/OurClients';
+import Service from '@/app/components/Service';
+import Tab from '@/app/components/Tab';
+import Tech from '@/app/components/Tech';
+import Testimonials from '@/app/components/Testimonials';
+import React from 'react';
 
-const App = () => {
+
+const Home = () => {
   return (
     <>
-      {/* <div className='bg-hero-image w-full overflow-hidden'>
+      <div className='bg-hero-image w-full overflow-hidden'>
         <Navbar />
-        <DigitalHero title={"ExpoBird is leading mobile app development company \ Dubai, helping business transform their ideas into reality. We build mobile app \
-         development solutions to empower startups, SMBs, enterprises and brands."}
-          text1={"We Are"} text2={"Web Development"} text3={"Company"}
-        />
+        <MobileNav />
+        <DigitalHero text1={"Web Development"} />
       </div>
-      <FeatureWork title={"We are a team of Web Developers and research experts with over ten years of experience in improving businesses and peoples’ lives through smart design"}
-      />
-     <Driven />
-      <Footer /> */}
+      <Service />
+      <FeatureWork />
+      <Clients />
+      <Testimonials />
+      <Driven />
+      <Award />
+      <Tech />
+      <HouseTechnology />
+      <Tab />
+      <Form />
+      <Footer />
+
     </>
   )
 }
-
-export default App
+export default Home

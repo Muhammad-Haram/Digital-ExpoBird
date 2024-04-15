@@ -48,7 +48,7 @@ const Navbar = () => {
                 </li></Link>
 
               </ul>
-              <Link href="/contact"><button className="sm:hidden ml-20 justify-end px-5 py-3 rounded-[40px] text-white text-[17px] md:text-[14px] font-semibold buttonv2 ">
+              <Link href="/contact"><button className="sm:hidden ml-20 justify-end px-5 py-3 rounded-[40px] text-white text-[17px] md:text-[14px] font-semibold buttonv2">
                 Let’s Talk <span><Image src={"/assets/Send-arrow.svg"} className="inline" width={21} height={20} alt="pic" /></span>
               </button></Link>
             </div>
@@ -64,90 +64,90 @@ const Navbar = () => {
         </button>
         <div className='justify-center grid grid-cols-2 mt-[70px] ml-10 gap-[40px] font-montserrat text-center'>
           <ul className="py-10 shadow-sm shadow-[#0045e5]">
-          <video height={50} width={100} className="py-3 ml-[100px] -mb-[60px]" alt="" autoPlay={true}
-                    muted={true}
-                    loop={true}
-                    src="/assets/graphic-maker.mp4" type="video/webm" >
-                    Your browser does not support the video tag.
-                  </video>
+            <video height={50} width={100} className="py-3 ml-[100px] -mb-[60px]" alt="" autoPlay={true}
+              muted={true}
+              loop={true}
+              src="/assets/graphic-maker.mp4" type="video/webm" >
+              Your browser does not support the video tag.
+            </video>
             <Link href="/services/digital"><li className=" text-[26px] font-semibold leading-none  underline mb-2 px-4" onClick={closeMobileMenu}>
               Digital Marketing Services
             </li></Link>
           </ul>
-       
+
           <ul className="py-10 shadow-sm shadow-[#0045e5] ">
-          <video height={50} width={100} className="py-3 ml-[100px] -mb-[60px]" alt="" autoPlay={true}
-                    muted={true}
-                    loop={true}
-                    src="/assets/graphic-maker.mp4" type="video/webm" >
-                    Your browser does not support the video tag.
-                  </video>
+            <video height={50} width={100} className="py-3 ml-[100px] -mb-[60px]" alt="" autoPlay={true}
+              muted={true}
+              loop={true}
+              src="/assets/graphic-maker.mp4" type="video/webm" >
+              Your browser does not support the video tag.
+            </video>
             <Link href="/services/social"><li className="text-[26px] leading-none font-semibold underline  mb-2 px-4 ml-[60px]" onClick={closeMobileMenu}>
               Social Media Marketing Services
             </li></Link>
           </ul>
           <ul className="py-10 shadow-sm shadow-[#0045e5] ">
-          <video height={50} width={100} className="py-3 ml-[100px] -mb-[60px]" alt="" autoPlay={true}
-                    muted={true}
-                    loop={true}
-                    src="/assets/graphic-maker.mp4" type="video/webm" >
-                    Your browser does not support the video tag.
-                  </video>
+            <video height={50} width={100} className="py-3 ml-[100px] -mb-[60px]" alt="" autoPlay={true}
+              muted={true}
+              loop={true}
+              src="/assets/graphic-maker.mp4" type="video/webm" >
+              Your browser does not support the video tag.
+            </video>
             <Link href="/services/web"><li className="text-[26px] leading-none font-semibold  underline mb-2 px-4" onClick={closeMobileMenu}>
               Web Development Services
             </li></Link>
           </ul>
           <ul className="py-10 shadow-sm shadow-[#0045e5] ">
-          <video height={50} width={100} className="py-3 ml-[100px] -mb-[60px]" alt="" autoPlay={true}
-                    muted={true}
-                    loop={true}
-                    src="/assets/graphic-maker.mp4" type="video/webm" >
-                    Your browser does not support the video tag.
-                  </video>
+            <video height={50} width={100} className="py-3 ml-[100px] -mb-[60px]" alt="" autoPlay={true}
+              muted={true}
+              loop={true}
+              src="/assets/graphic-maker.mp4" type="video/webm" >
+              Your browser does not support the video tag.
+            </video>
             <Link href="/services/commerce"><li className="text-[26px] leading-none font-semibold underline  mb-2 px-4 ml-[60px]" onClick={closeMobileMenu}>
               E-commerce Development Services
             </li></Link>
           </ul>
           <ul className="py-10 shadow-sm shadow-[#0045e5]">
-          <video height={50} width={100} className="py-3 ml-[100px] -mb-[60px]" alt="" autoPlay={true}
-                    muted={true}
-                    loop={true}
-                    src="/assets/graphic-maker.mp4" type="video/webm" >
-                    Your browser does not support the video tag.
-                  </video>
+            <video height={50} width={100} className="py-3 ml-[100px] -mb-[60px]" alt="" autoPlay={true}
+              muted={true}
+              loop={true}
+              src="/assets/graphic-maker.mp4" type="video/webm" >
+              Your browser does not support the video tag.
+            </video>
             <Link href="/services/video"><li className="text-[26px] leading-none font-semibold underline  mb-2 px-4" onClick={closeMobileMenu}>
               Video Production Services
             </li></Link>
           </ul>
           <ul className="py-10 shadow-sm shadow-[#0045e5]">
-          <video height={50} width={100} className="py-3 ml-[100px] -mb-[60px]" alt="" autoPlay={true}
-                    muted={true}
-                    loop={true}
-                    src="/assets/graphic-maker.mp4" type="video/webm" >
-                    Your browser does not support the video tag.
-                  </video>
+            <video height={50} width={100} className="py-3 ml-[100px] -mb-[60px]" alt="" autoPlay={true}
+              muted={true}
+              loop={true}
+              src="/assets/graphic-maker.mp4" type="video/webm" >
+              Your browser does not support the video tag.
+            </video>
             <Link href="/services/animation"><li className="text-[26px] leading-none font-semibold underline  mb-2 px-4" onClick={closeMobileMenu}>
               Animation Services
             </li></Link>
           </ul>
           <ul className="py-10 shadow-sm shadow-[#0045e5]">
-          <video height={50} width={100} className="py-3 ml-[100px] -mb-[60px]" alt="" autoPlay={true}
-                    muted={true}
-                    loop={true}
-                    src="/assets/graphic-maker.mp4" type="video/webm" >
-                    Your browser does not support the video tag.
-                  </video>
+            <video height={50} width={100} className="py-3 ml-[100px] -mb-[60px]" alt="" autoPlay={true}
+              muted={true}
+              loop={true}
+              src="/assets/graphic-maker.mp4" type="video/webm" >
+              Your browser does not support the video tag.
+            </video>
             <Link href="/services/ui"><li className="text-[26px] leading-none font-semibold underline  mb-2 px-4" onClick={closeMobileMenu}>
               UI/UX Design Services
             </li></Link>
           </ul>
           <ul className="py-10 shadow-sm shadow-[#0045e5]">
-          <video height={50} width={100} className="py-3 ml-[100px] -mb-[60px]" alt="" autoPlay={true}
-                    muted={true}
-                    loop={true}
-                    src="/assets/graphic-maker.mp4" type="video/webm" >
-                    Your browser does not support the video tag.
-                  </video>
+            <video height={50} width={100} className="py-3 ml-[100px] -mb-[60px]" alt="" autoPlay={true}
+              muted={true}
+              loop={true}
+              src="/assets/graphic-maker.mp4" type="video/webm" >
+              Your browser does not support the video tag.
+            </video>
             <Link href="/services/appdev"><li className="text-[26px] leading-none font-semibold underline  mb-4 px-4 ml-[60px]" onClick={closeMobileMenu}>
               Application Development Services
             </li></Link>
