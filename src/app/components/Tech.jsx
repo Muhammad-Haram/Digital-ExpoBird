@@ -71,8 +71,6 @@ const Tech = () => {
               4<Image src={"/assets/tech/technology-icon-5.svg"} height={60} width={60} alt="pic" />
               4<Image src={"/assets/tech/technology-icon-3.svg"} height={60} width={60} alt="pic" />
               4<Image src={"/assets/tech/technology-icon-21.svg"} height={60} width={60} alt="pic" />
-              {/* 4<Image src={"/assets/tech/technology-icon-5.svg"} height={60} width={60} alt="pic" />
-              4<Image src={"/assets/tech/technology-icon-18.svg"} height={60} width={60} alt="pic" /> */}
             </div>
 
             <div aria-hidden="true" className="marquee__group">

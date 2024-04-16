@@ -19,9 +19,9 @@ const Home = () => {
   return (
     <>
       <div className='bg-hero-image w-full overflow-hidden'>
-        <Navbar />
-        <MobileNav />
-        <DigitalHero text1={"Web Development"} />
+      <Navbar />
+      <MobileNav />
+      <DigitalHero text1={"Web Development"} />
       </div>
       <Service />
       <FeatureWork />
