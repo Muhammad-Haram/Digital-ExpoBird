@@ -175,91 +175,48 @@ const Tab = () => {
                 </div>
 
                 <div className='flex justify-start gap-5 sm:hidden'>
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
+                  {/* <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/album_promo_visualizer.jpg"}
                       width={400}
                       height={400}
                       alt="pic"
                     />
-
                     <video className='w-[100%] absolute top-0 left-0 bottom-0 right-0 scale-125 opacity-0 hover:opacity-100'
                       loop autoPlay="true" playsinline muted cantrols>
                       <source autoPlay loop src="assets/tabVideo/video1.mp4" type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
-
-
                   </div>
-
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px] sm:hidden'>
-
-
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/luminous_neon_visualizer.jpg"}
                       width={400}
                       height={400}
                       alt="pic"
                     />
-
                     <video className='w-[100%] absolute top-0 left-0 bottom-0 right-0 scale-125 opacity-0 hover:opacity-100'
                       loop autoPlay="true" playsinline muted cantrols>
                       <source autoPlay loop src="assets/tabVideo/video1.mp4" type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
-
-
                   </div>
-
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
-
-
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/album_promo_visualizer.jpg"}
                       width={400}
                       height={400}
                       alt="pic"
                     />
-
                     <video className='w-[100%] absolute top-0 left-0 bottom-0 right-0 scale-125 opacity-0 hover:opacity-100'
                       loop autoPlay="true" playsinline muted cantrols>
                       <source autoPlay loop src="assets/tabVideo/video1.mp4" type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
-
-
-                  </div>
-
-
-
-                  {/* <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
-                    src={"/assets/tabs/album_promo_visualizer.jpg"}
-                    width={400}
-                    height={400}
-                    alt="pic"
-                  />  
-                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
-                    src={"/assets/tabs/trendy_explainer_toolkit.jpg"}
-                    width={400}
-                    height={400}
-                    alt="pic"
-                  /> 
-                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
-                    src={"/assets/tabs/informative_social_pack.jpg"}
-                    width={400}
-                    height={400}
-                    alt="pic"
-                  /> 
-                  <Image className=' rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
-                    src={"/assets/tabs/luminous_neon_visualizer.jpg"}
-                    width={400}
-                    height={400}
-                    alt="pic"
-                  /> */}
+                  </div> */}
                 </div>
               </div>
             </section>
-
             <section className="sm:gap-[48px] flex-row justify-around sm:justify-evenly">
               <div className='gap-[30px] box-border'>
 
@@ -350,7 +307,7 @@ const Tab = () => {
                 </div>
 
                 <div className='flex justify-start gap-5 sm:hidden'>
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
+                  {/* <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/album_promo_visualizer.jpg"}
                       width={400}
@@ -363,74 +320,33 @@ const Tab = () => {
                       <source autoPlay loop src="assets/tabVideo/video1.mp4" type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
-
-
                   </div>
-
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px] sm:hidden'>
-
-
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/luminous_neon_visualizer.jpg"}
                       width={400}
                       height={400}
                       alt="pic"
                     />
-
-                    <video className='w-[100%] absolute top-0 left-0 bottom-0 right-0 scale-125 opacity-0 hover:opacity-100'
+                   <video className='w-[100%] absolute top-0 left-0 bottom-0 right-0 scale-125 opacity-0 hover:opacity-100'
                       loop autoPlay="true" playsinline muted cantrols>
                       <source autoPlay loop src="assets/tabVideo/video1.mp4" type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
-
-
                   </div>
-
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
-
-
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/album_promo_visualizer.jpg"}
                       width={400}
                       height={400}
                       alt="pic"
                     />
-
                     <video className='w-[100%] absolute top-0 left-0 bottom-0 right-0 scale-125 opacity-0 hover:opacity-100'
                       loop autoPlay="true" playsinline muted cantrols>
                       <source autoPlay loop src="assets/tabVideo/video1.mp4" type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
-
-
-                  </div>
-
-
-
-                  {/* <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
-                    src={"/assets/tabs/album_promo_visualizer.jpg"}
-                    width={400}
-                    height={400}
-                    alt="pic"
-                  />  
-                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
-                    src={"/assets/tabs/trendy_explainer_toolkit.jpg"}
-                    width={400}
-                    height={400}
-                    alt="pic"
-                  /> 
-                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
-                    src={"/assets/tabs/informative_social_pack.jpg"}
-                    width={400}
-                    height={400}
-                    alt="pic"
-                  /> 
-                  <Image className=' rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
-                    src={"/assets/tabs/luminous_neon_visualizer.jpg"}
-                    width={400}
-                    height={400}
-                    alt="pic"
-                  /> */}
+                  </div> */}
                 </div>
               </div>
             </section>
@@ -465,7 +381,6 @@ const Tab = () => {
                       <source autoPlay loop src="assets/tabVideo/video1.mp4" type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
-
                   </div>
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
@@ -481,7 +396,6 @@ const Tab = () => {
                     </video>
                   </div>
                 </div>
-
                 <div className='flex justify-start gap-5 mb-10'>
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
@@ -523,96 +437,51 @@ const Tab = () => {
                     </video>
                   </div>
                 </div>
-
                 <div className='flex justify-start gap-5 sm:hidden'>
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
+                  {/* <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/album_promo_visualizer.jpg"}
                       width={400}
                       height={400}
                       alt="pic"
                     />
-
                     <video className='w-[100%] absolute top-0 left-0 bottom-0 right-0 scale-125 opacity-0 hover:opacity-100'
                       loop autoPlay="true" playsinline muted cantrols>
                       <source autoPlay loop src="assets/tabVideo/video1.mp4" type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
-
-
                   </div>
-
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px] sm:hidden'>
-
-
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/luminous_neon_visualizer.jpg"}
                       width={400}
                       height={400}
                       alt="pic"
                     />
-
                     <video className='w-[100%] absolute top-0 left-0 bottom-0 right-0 scale-125 opacity-0 hover:opacity-100'
                       loop autoPlay="true" playsinline muted cantrols>
                       <source autoPlay loop src="assets/tabVideo/video1.mp4" type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
-
-
                   </div>
-
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
-
-
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/album_promo_visualizer.jpg"}
                       width={400}
                       height={400}
                       alt="pic"
                     />
-
                     <video className='w-[100%] absolute top-0 left-0 bottom-0 right-0 scale-125 opacity-0 hover:opacity-100'
                       loop autoPlay="true" playsinline muted cantrols>
                       <source autoPlay loop src="assets/tabVideo/video1.mp4" type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
-
-
-                  </div>
-
-
-
-                  {/* <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
-                    src={"/assets/tabs/album_promo_visualizer.jpg"}
-                    width={400}
-                    height={400}
-                    alt="pic"
-                  />  
-                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
-                    src={"/assets/tabs/trendy_explainer_toolkit.jpg"}
-                    width={400}
-                    height={400}
-                    alt="pic"
-                  /> 
-                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
-                    src={"/assets/tabs/informative_social_pack.jpg"}
-                    width={400}
-                    height={400}
-                    alt="pic"
-                  /> 
-                  <Image className=' rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
-                    src={"/assets/tabs/luminous_neon_visualizer.jpg"}
-                    width={400}
-                    height={400}
-                    alt="pic"
-                  /> */}
+                  </div> */}
                 </div>
               </div>
             </section>
-
             <section className="sm:gap-[48px] flex-row justify-around sm:justify-evenly">
               <div className='gap-[30px] box-border'>
-
                 <div className='flex justify-start gap-5 sm:mb-[4rem] sm:mt-[40px] mb-10'>
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
@@ -640,7 +509,6 @@ const Tab = () => {
                       <source autoPlay loop src="assets/tabVideo/video1.mp4" type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
-
                   </div>
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
@@ -656,7 +524,6 @@ const Tab = () => {
                     </video>
                   </div>
                 </div>
-
                 <div className='flex justify-start gap-5 mb-10'>
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
@@ -698,96 +565,51 @@ const Tab = () => {
                     </video>
                   </div>
                 </div>
-
                 <div className='flex justify-start gap-5 sm:hidden'>
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
+                  {/* <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/album_promo_visualizer.jpg"}
                       width={400}
                       height={400}
                       alt="pic"
                     />
-
                     <video className='w-[100%] absolute top-0 left-0 bottom-0 right-0 scale-125 opacity-0 hover:opacity-100'
                       loop autoPlay="true" playsinline muted cantrols>
                       <source autoPlay loop src="assets/tabVideo/video1.mp4" type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
-
-
                   </div>
-
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px] sm:hidden'>
-
-
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/luminous_neon_visualizer.jpg"}
                       width={400}
                       height={400}
                       alt="pic"
                     />
-
                     <video className='w-[100%] absolute top-0 left-0 bottom-0 right-0 scale-125 opacity-0 hover:opacity-100'
                       loop autoPlay="true" playsinline muted cantrols>
                       <source autoPlay loop src="assets/tabVideo/video1.mp4" type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
-
-
                   </div>
-
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
-
-
+                <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/album_promo_visualizer.jpg"}
                       width={400}
                       height={400}
                       alt="pic"
                     />
-
                     <video className='w-[100%] absolute top-0 left-0 bottom-0 right-0 scale-125 opacity-0 hover:opacity-100'
                       loop autoPlay="true" playsinline muted cantrols>
                       <source autoPlay loop src="assets/tabVideo/video1.mp4" type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
-
-
-                  </div>
-
-
-
-                  {/* <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
-                    src={"/assets/tabs/album_promo_visualizer.jpg"}
-                    width={400}
-                    height={400}
-                    alt="pic"
-                  />  
-                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
-                    src={"/assets/tabs/trendy_explainer_toolkit.jpg"}
-                    width={400}
-                    height={400}
-                    alt="pic"
-                  /> 
-                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
-                    src={"/assets/tabs/informative_social_pack.jpg"}
-                    width={400}
-                    height={400}
-                    alt="pic"
-                  /> 
-                  <Image className=' rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
-                    src={"/assets/tabs/luminous_neon_visualizer.jpg"}
-                    width={400}
-                    height={400}
-                    alt="pic"
-                  /> */}
+                  </div> */}
                 </div>
               </div>
             </section>
-
             <section className="sm:gap-[48px] flex-row justify-around sm:justify-evenly">
               <div className='gap-[30px] box-border'>
-
                 <div className='flex justify-start gap-5 sm:mb-[4rem] sm:mt-[40px] mb-10'>
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
@@ -809,13 +631,11 @@ const Tab = () => {
                       height={400}
                       alt="pic"
                     />
-
                     <video className='w-[100%] absolute top-0 left-0 bottom-0 right-0 scale-125 opacity-0 hover:opacity-100'
                       loop autoPlay="true" playsinline muted cantrols>
                       <source autoPlay loop src="assets/tabVideo/video1.mp4" type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
-
                   </div>
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
@@ -831,7 +651,6 @@ const Tab = () => {
                     </video>
                   </div>
                 </div>
-
                 <div className='flex justify-start gap-5 mb-10'>
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
@@ -873,96 +692,51 @@ const Tab = () => {
                     </video>
                   </div>
                 </div>
-
                 <div className='flex justify-start gap-5 sm:hidden'>
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
+                  {/* <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/album_promo_visualizer.jpg"}
                       width={400}
                       height={400}
                       alt="pic"
                     />
-
                     <video className='w-[100%] absolute top-0 left-0 bottom-0 right-0 scale-125 opacity-0 hover:opacity-100'
                       loop autoPlay="true" playsinline muted cantrols>
                       <source autoPlay loop src="assets/tabVideo/video1.mp4" type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
-
-
                   </div>
-
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px] sm:hidden'>
-
-
-                    <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
+                  <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/luminous_neon_visualizer.jpg"}
                       width={400}
                       height={400}
                       alt="pic"
                     />
-
                     <video className='w-[100%] absolute top-0 left-0 bottom-0 right-0 scale-125 opacity-0 hover:opacity-100'
                       loop autoPlay="true" playsinline muted cantrols>
                       <source autoPlay loop src="assets/tabVideo/video1.mp4" type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
-
-
                   </div>
-
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
-
-
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/album_promo_visualizer.jpg"}
                       width={400}
                       height={400}
                       alt="pic"
                     />
-
                     <video className='w-[100%] absolute top-0 left-0 bottom-0 right-0 scale-125 opacity-0 hover:opacity-100'
                       loop autoPlay="true" playsinline muted cantrols>
                       <source autoPlay loop src="assets/tabVideo/video1.mp4" type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
-
-
-                  </div>
-
-
-
-                  {/* <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
-                    src={"/assets/tabs/album_promo_visualizer.jpg"}
-                    width={400}
-                    height={400}
-                    alt="pic"
-                  />  
-                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
-                    src={"/assets/tabs/trendy_explainer_toolkit.jpg"}
-                    width={400}
-                    height={400}
-                    alt="pic"
-                  /> 
-                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
-                    src={"/assets/tabs/informative_social_pack.jpg"}
-                    width={400}
-                    height={400}
-                    alt="pic"
-                  /> 
-                  <Image className=' rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
-                    src={"/assets/tabs/luminous_neon_visualizer.jpg"}
-                    width={400}
-                    height={400}
-                    alt="pic"
-                  /> */}
+                  </div> */}
                 </div>
               </div>
             </section>
-
             <section className="sm:gap-[48px] flex-row justify-around sm:justify-evenly">
               <div className='gap-[30px] box-border'>
-
                 <div className='flex justify-start gap-5 sm:mb-[4rem] sm:mt-[40px] mb-10'>
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
@@ -984,13 +758,11 @@ const Tab = () => {
                       height={400}
                       alt="pic"
                     />
-
                     <video className='w-[100%] absolute top-0 left-0 bottom-0 right-0 scale-125 opacity-0 hover:opacity-100'
                       loop autoPlay="true" playsinline muted cantrols>
                       <source autoPlay loop src="assets/tabVideo/video1.mp4" type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
-
                   </div>
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
@@ -1006,7 +778,6 @@ const Tab = () => {
                     </video>
                   </div>
                 </div>
-
                 <div className='flex justify-start gap-5 mb-10'>
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
@@ -1048,89 +819,46 @@ const Tab = () => {
                     </video>
                   </div>
                 </div>
-
                 <div className='flex justify-start gap-5 sm:hidden'>
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
+                  {/* <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/album_promo_visualizer.jpg"}
                       width={400}
                       height={400}
                       alt="pic"
                     />
-
                     <video className='w-[100%] absolute top-0 left-0 bottom-0 right-0 scale-125 opacity-0 hover:opacity-100'
                       loop autoPlay="true" playsinline muted cantrols>
                       <source autoPlay loop src="assets/tabVideo/video1.mp4" type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
-
-
                   </div>
-
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px] sm:hidden'>
-
-
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/luminous_neon_visualizer.jpg"}
                       width={400}
                       height={400}
                       alt="pic"
                     />
-
                     <video className='w-[100%] absolute top-0 left-0 bottom-0 right-0 scale-125 opacity-0 hover:opacity-100'
                       loop autoPlay="true" playsinline muted cantrols>
                       <source autoPlay loop src="assets/tabVideo/video1.mp4" type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
-
-
                   </div>
-
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
-
-
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/album_promo_visualizer.jpg"}
                       width={400}
                       height={400}
                       alt="pic"
                     />
-
                     <video className='w-[100%] absolute top-0 left-0 bottom-0 right-0 scale-125 opacity-0 hover:opacity-100'
                       loop autoPlay="true" playsinline muted cantrols>
                       <source autoPlay loop src="assets/tabVideo/video1.mp4" type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
-
-
-                  </div>
-
-
-
-                  {/* <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
-                    src={"/assets/tabs/album_promo_visualizer.jpg"}
-                    width={400}
-                    height={400}
-                    alt="pic"
-                  />  
-                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
-                    src={"/assets/tabs/trendy_explainer_toolkit.jpg"}
-                    width={400}
-                    height={400}
-                    alt="pic"
-                  /> 
-                  <Image className='rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
-                    src={"/assets/tabs/informative_social_pack.jpg"}
-                    width={400}
-                    height={400}
-                    alt="pic"
-                  /> 
-                  <Image className=' rounded-lg sm:max-w-[100%] max-w-[25%] hover:scale-105 cursor-pointer transition-all'
-                    src={"/assets/tabs/luminous_neon_visualizer.jpg"}
-                    width={400}
-                    height={400}
-                    alt="pic"
-                  /> */}
+                  </div> */}
                 </div>
               </div>
             </section>
