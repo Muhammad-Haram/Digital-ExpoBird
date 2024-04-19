@@ -4,6 +4,9 @@
 @tailwind components;
 @tailwind utilities;
 
+/* * {
+  outline: 1px solid red;
+} */
 
 body {
   overflow-x: hidden;
@@ -3703,8 +3706,6 @@ h1:hover .o-letter {
   left: 0%;
   background-color: #7F7C9C;
 }
-
-
 
 .buttonv2 {
   padding: .75rem 1.25rem;
