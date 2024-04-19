@@ -9,7 +9,6 @@ const DigitalHero = ({ text1 }) => (
         <p>We Are</p>
         <p>{text1}</p>
         <p>Company</p>
-
       </h1>
     </div>
     <div className="text-center my-8">
@@ -28,7 +27,6 @@ const DigitalHero = ({ text1 }) => (
       </div>
     </div>
   </section>
-
 )
 
 export default DigitalHero
