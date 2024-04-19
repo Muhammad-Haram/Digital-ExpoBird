@@ -15,30 +15,6 @@ const Tab = () => {
           <h6 className="sm:text-[30px] md:text-[60px] text-[80px] font-black mt-[30px] sm:text-center sm:mt-[0px] sm:ml-[5px] ml-[60px] lg:text-[60px] sm:font-extrabold text-[#fff]">                Featured works
           </h6>
 
-          <div className="sm:hidden ml-[0px] sm:right-[45px] right-[25px] sm:mt-[20px] md:ml-12 md:mt-4 ico animated">
-
-            <div className="circle circle-top"></div>
-            <div className="circle circle-main"></div>
-            <div className="circle circle-bottom"></div>
-            <svg className="svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 612 612" xmlSpace="preserve">
-              <defs>
-                <clipPath id="cut-off-arrow">
-                  <circle cx="306" cy="306" r="287" />
-                </clipPath>
-
-                <filter id="goo">
-                  <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
-                  <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
-                  <feBlend in="SourceGraphic" in2="goo" />
-                </filter>
-              </defs>
-              <path className="st-arrow" d="M317.5,487.6c0.3-0.3,0.4-0.7,0.7-1.1l112.6-112.6c6.3-6.3,6.3-16.5,0-22.7c-6.3-6.3-16.5-6.3-22.7,0
-        l-86,86V136.1c0-8.9-7.3-16.2-16.2-16.2c-8.9,0-16.2,7.3-16.2,16.2v301.1l-86-86c-6.3-6.3-16.5-6.3-22.7,0
-        c-6.3,6.3-6.3,16.5,0,22.7l112.7,112.7c0.3,0.3,0.4,0.7,0.7,1c0.5,0.5,1.2,0.5,1.7,0.9c1.7,1.4,3.6,2.3,5.6,2.9
-        c0.8,0.2,1.5,0.4,2.3,0.4C308.8,492.6,313.8,491.3,317.5,487.6z" />
-            </svg>
-          </div>
-
         </div>
 
         <div className=" tabs bg-transparent sm:w-[100%] w-[90%] min-w-[240px] md:h-[700px] first-letter: sm:h-[600px] h-[950px] sm:p-0 p-12 relative left-[50%] -translate-x-2/4">
