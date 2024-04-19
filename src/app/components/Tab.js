@@ -89,7 +89,7 @@ const Tab = () => {
               <div className='gap-[30px] box-border'>
 
                 <div className='flex justify-start gap-5 sm:mb-[4rem] sm:mt-[40px] mb-10'>
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#000213] border-0 hover:border-[6px]'>
+                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/3d_explainer_video_toolkit.jpg"}
                       width={400}
@@ -102,7 +102,7 @@ const Tab = () => {
                       Your browser does not support the video tag.
                     </video>
                   </div>
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#000213] border-0 hover:border-[6px] sm:hidden'>
+                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px] sm:hidden'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/factory-of-3d-animations.jpg"}
                       width={400}
@@ -117,7 +117,7 @@ const Tab = () => {
                     </video>
 
                   </div>
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#000213] border-0 hover:border-[6px]'>
+                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/trendy_typography_pack.jpg"}
                       width={400}
@@ -133,7 +133,7 @@ const Tab = () => {
                 </div>
 
                 <div className='flex justify-start gap-5 mb-10'>
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#000213] border-0 hover:border-[6px]'>
+                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/album_promo_visualizer.jpg"}
                       width={400}
@@ -146,7 +146,7 @@ const Tab = () => {
                       Your browser does not support the video tag.
                     </video>
                   </div>
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#000213] border-0 hover:border-[6px] sm:hidden'>
+                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px] sm:hidden'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/whiteboard_animation_toolkit.jpg"}
                       width={400}
@@ -159,7 +159,7 @@ const Tab = () => {
                       Your browser does not support the video tag.
                     </video>
                   </div>
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#000213] border-0 hover:border-[6px]'>
+                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/trendy_explainer_toolkit.jpg"}
                       width={400}
@@ -175,7 +175,7 @@ const Tab = () => {
                 </div>
 
                 <div className='flex justify-start gap-5 sm:hidden'>
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#000213] border-0 hover:border-[6px]'>
+                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/album_promo_visualizer.jpg"}
                       width={400}
@@ -192,7 +192,7 @@ const Tab = () => {
 
                   </div>
 
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#000213] border-0 hover:border-[6px] sm:hidden'>
+                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px] sm:hidden'>
 
 
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
@@ -211,7 +211,7 @@ const Tab = () => {
 
                   </div>
 
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#000213] border-0 hover:border-[6px]'>
+                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
 
 
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
@@ -264,7 +264,7 @@ const Tab = () => {
               <div className='gap-[30px] box-border'>
 
                 <div className='flex justify-start gap-5 sm:mb-[4rem] sm:mt-[40px] mb-10'>
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#000213] border-0 hover:border-[6px]'>
+                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/3d_explainer_video_toolkit.jpg"}
                       width={400}
@@ -277,7 +277,7 @@ const Tab = () => {
                       Your browser does not support the video tag.
                     </video>
                   </div>
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#000213] border-0 hover:border-[6px] sm:hidden'>
+                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px] sm:hidden'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/factory-of-3d-animations.jpg"}
                       width={400}
@@ -292,7 +292,7 @@ const Tab = () => {
                     </video>
 
                   </div>
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#000213] border-0 hover:border-[6px]'>
+                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/trendy_typography_pack.jpg"}
                       width={400}
@@ -308,7 +308,7 @@ const Tab = () => {
                 </div>
 
                 <div className='flex justify-start gap-5 mb-10'>
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#000213] border-0 hover:border-[6px]'>
+                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/album_promo_visualizer.jpg"}
                       width={400}
@@ -321,7 +321,7 @@ const Tab = () => {
                       Your browser does not support the video tag.
                     </video>
                   </div>
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#000213] border-0 hover:border-[6px] sm:hidden'>
+                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px] sm:hidden'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/whiteboard_animation_toolkit.jpg"}
                       width={400}
@@ -334,7 +334,7 @@ const Tab = () => {
                       Your browser does not support the video tag.
                     </video>
                   </div>
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#000213] border-0 hover:border-[6px]'>
+                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/trendy_explainer_toolkit.jpg"}
                       width={400}
@@ -350,7 +350,7 @@ const Tab = () => {
                 </div>
 
                 <div className='flex justify-start gap-5 sm:hidden'>
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#000213] border-0 hover:border-[6px]'>
+                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/album_promo_visualizer.jpg"}
                       width={400}
@@ -367,7 +367,7 @@ const Tab = () => {
 
                   </div>
 
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#000213] border-0 hover:border-[6px] sm:hidden'>
+                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px] sm:hidden'>
 
 
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
@@ -386,7 +386,7 @@ const Tab = () => {
 
                   </div>
 
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#000213] border-0 hover:border-[6px]'>
+                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
 
 
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
@@ -439,7 +439,7 @@ const Tab = () => {
               <div className='gap-[30px] box-border'>
 
                 <div className='flex justify-start gap-5 sm:mb-[4rem] sm:mt-[40px] mb-10'>
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#000213] border-0 hover:border-[6px]'>
+                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/3d_explainer_video_toolkit.jpg"}
                       width={400}
@@ -452,7 +452,7 @@ const Tab = () => {
                       Your browser does not support the video tag.
                     </video>
                   </div>
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#000213] border-0 hover:border-[6px] sm:hidden'>
+                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px] sm:hidden'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/factory-of-3d-animations.jpg"}
                       width={400}
@@ -467,7 +467,7 @@ const Tab = () => {
                     </video>
 
                   </div>
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#000213] border-0 hover:border-[6px]'>
+                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/trendy_typography_pack.jpg"}
                       width={400}
@@ -483,7 +483,7 @@ const Tab = () => {
                 </div>
 
                 <div className='flex justify-start gap-5 mb-10'>
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#000213] border-0 hover:border-[6px]'>
+                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/album_promo_visualizer.jpg"}
                       width={400}
@@ -496,7 +496,7 @@ const Tab = () => {
                       Your browser does not support the video tag.
                     </video>
                   </div>
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#000213] border-0 hover:border-[6px] sm:hidden'>
+                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px] sm:hidden'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/whiteboard_animation_toolkit.jpg"}
                       width={400}
@@ -509,7 +509,7 @@ const Tab = () => {
                       Your browser does not support the video tag.
                     </video>
                   </div>
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#000213] border-0 hover:border-[6px]'>
+                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/trendy_explainer_toolkit.jpg"}
                       width={400}
@@ -525,7 +525,7 @@ const Tab = () => {
                 </div>
 
                 <div className='flex justify-start gap-5 sm:hidden'>
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#000213] border-0 hover:border-[6px]'>
+                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/album_promo_visualizer.jpg"}
                       width={400}
@@ -542,7 +542,7 @@ const Tab = () => {
 
                   </div>
 
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#000213] border-0 hover:border-[6px] sm:hidden'>
+                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px] sm:hidden'>
 
 
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
@@ -561,7 +561,7 @@ const Tab = () => {
 
                   </div>
 
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#000213] border-0 hover:border-[6px]'>
+                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
 
 
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
@@ -614,7 +614,7 @@ const Tab = () => {
               <div className='gap-[30px] box-border'>
 
                 <div className='flex justify-start gap-5 sm:mb-[4rem] sm:mt-[40px] mb-10'>
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#000213] border-0 hover:border-[6px]'>
+                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/3d_explainer_video_toolkit.jpg"}
                       width={400}
@@ -627,7 +627,7 @@ const Tab = () => {
                       Your browser does not support the video tag.
                     </video>
                   </div>
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#000213] border-0 hover:border-[6px] sm:hidden'>
+                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px] sm:hidden'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/factory-of-3d-animations.jpg"}
                       width={400}
@@ -642,7 +642,7 @@ const Tab = () => {
                     </video>
 
                   </div>
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#000213] border-0 hover:border-[6px]'>
+                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/trendy_typography_pack.jpg"}
                       width={400}
@@ -658,7 +658,7 @@ const Tab = () => {
                 </div>
 
                 <div className='flex justify-start gap-5 mb-10'>
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#000213] border-0 hover:border-[6px]'>
+                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/album_promo_visualizer.jpg"}
                       width={400}
@@ -671,7 +671,7 @@ const Tab = () => {
                       Your browser does not support the video tag.
                     </video>
                   </div>
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#000213] border-0 hover:border-[6px] sm:hidden'>
+                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px] sm:hidden'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/whiteboard_animation_toolkit.jpg"}
                       width={400}
@@ -684,7 +684,7 @@ const Tab = () => {
                       Your browser does not support the video tag.
                     </video>
                   </div>
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#000213] border-0 hover:border-[6px]'>
+                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/trendy_explainer_toolkit.jpg"}
                       width={400}
@@ -700,7 +700,7 @@ const Tab = () => {
                 </div>
 
                 <div className='flex justify-start gap-5 sm:hidden'>
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#000213] border-0 hover:border-[6px]'>
+                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/album_promo_visualizer.jpg"}
                       width={400}
@@ -717,7 +717,7 @@ const Tab = () => {
 
                   </div>
 
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#000213] border-0 hover:border-[6px] sm:hidden'>
+                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px] sm:hidden'>
 
 
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
@@ -736,7 +736,7 @@ const Tab = () => {
 
                   </div>
 
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#000213] border-0 hover:border-[6px]'>
+                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
 
 
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
@@ -789,7 +789,7 @@ const Tab = () => {
               <div className='gap-[30px] box-border'>
 
                 <div className='flex justify-start gap-5 sm:mb-[4rem] sm:mt-[40px] mb-10'>
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#000213] border-0 hover:border-[6px]'>
+                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/3d_explainer_video_toolkit.jpg"}
                       width={400}
@@ -802,7 +802,7 @@ const Tab = () => {
                       Your browser does not support the video tag.
                     </video>
                   </div>
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#000213] border-0 hover:border-[6px] sm:hidden'>
+                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px] sm:hidden'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/factory-of-3d-animations.jpg"}
                       width={400}
@@ -817,7 +817,7 @@ const Tab = () => {
                     </video>
 
                   </div>
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#000213] border-0 hover:border-[6px]'>
+                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/trendy_typography_pack.jpg"}
                       width={400}
@@ -833,7 +833,7 @@ const Tab = () => {
                 </div>
 
                 <div className='flex justify-start gap-5 mb-10'>
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#000213] border-0 hover:border-[6px]'>
+                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/album_promo_visualizer.jpg"}
                       width={400}
@@ -846,7 +846,7 @@ const Tab = () => {
                       Your browser does not support the video tag.
                     </video>
                   </div>
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#000213] border-0 hover:border-[6px] sm:hidden'>
+                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px] sm:hidden'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/whiteboard_animation_toolkit.jpg"}
                       width={400}
@@ -859,7 +859,7 @@ const Tab = () => {
                       Your browser does not support the video tag.
                     </video>
                   </div>
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#000213] border-0 hover:border-[6px]'>
+                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/trendy_explainer_toolkit.jpg"}
                       width={400}
@@ -875,7 +875,7 @@ const Tab = () => {
                 </div>
 
                 <div className='flex justify-start gap-5 sm:hidden'>
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#000213] border-0 hover:border-[6px]'>
+                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/album_promo_visualizer.jpg"}
                       width={400}
@@ -892,7 +892,7 @@ const Tab = () => {
 
                   </div>
 
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#000213] border-0 hover:border-[6px] sm:hidden'>
+                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px] sm:hidden'>
 
 
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
@@ -911,7 +911,7 @@ const Tab = () => {
 
                   </div>
 
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#000213] border-0 hover:border-[6px]'>
+                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
 
 
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
@@ -964,7 +964,7 @@ const Tab = () => {
               <div className='gap-[30px] box-border'>
 
                 <div className='flex justify-start gap-5 sm:mb-[4rem] sm:mt-[40px] mb-10'>
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#000213] border-0 hover:border-[6px]'>
+                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/3d_explainer_video_toolkit.jpg"}
                       width={400}
@@ -977,7 +977,7 @@ const Tab = () => {
                       Your browser does not support the video tag.
                     </video>
                   </div>
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#000213] border-0 hover:border-[6px] sm:hidden'>
+                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px] sm:hidden'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/factory-of-3d-animations.jpg"}
                       width={400}
@@ -992,7 +992,7 @@ const Tab = () => {
                     </video>
 
                   </div>
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#000213] border-0 hover:border-[6px]'>
+                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/trendy_typography_pack.jpg"}
                       width={400}
@@ -1008,7 +1008,7 @@ const Tab = () => {
                 </div>
 
                 <div className='flex justify-start gap-5 mb-10'>
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#000213] border-0 hover:border-[6px]'>
+                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/album_promo_visualizer.jpg"}
                       width={400}
@@ -1021,7 +1021,7 @@ const Tab = () => {
                       Your browser does not support the video tag.
                     </video>
                   </div>
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#000213] border-0 hover:border-[6px] sm:hidden'>
+                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px] sm:hidden'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/whiteboard_animation_toolkit.jpg"}
                       width={400}
@@ -1034,7 +1034,7 @@ const Tab = () => {
                       Your browser does not support the video tag.
                     </video>
                   </div>
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#000213] border-0 hover:border-[6px]'>
+                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/trendy_explainer_toolkit.jpg"}
                       width={400}
@@ -1050,7 +1050,7 @@ const Tab = () => {
                 </div>
 
                 <div className='flex justify-start gap-5 sm:hidden'>
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#000213] border-0 hover:border-[6px]'>
+                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
                       src={"/assets/tabs/album_promo_visualizer.jpg"}
                       width={400}
@@ -1067,7 +1067,7 @@ const Tab = () => {
 
                   </div>
 
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#000213] border-0 hover:border-[6px] sm:hidden'>
+                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px] sm:hidden'>
 
 
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
@@ -1086,7 +1086,7 @@ const Tab = () => {
 
                   </div>
 
-                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#000213] border-0 hover:border-[6px]'>
+                  <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
 
 
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
