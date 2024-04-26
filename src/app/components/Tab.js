@@ -10,8 +10,9 @@ const Tab = () => {
   return (
     <Fragment>
       <div className=" mt-[50px] bg-[#000213] font-montserrat sm:px-5 xl:px-0 px-0 relative z-10">
-        <div className=" md:mb-0 md:py-[1rem] py-[3rem] sm:py-[1rem] mb-10">
 
+        <div className=" md:mb-0 md:py-[1rem] py-[3rem] sm:py-[1rem] mb-10">
+          
           <h6 className="sm:text-[30px] md:text-[60px] text-[80px] font-black mt-[30px] sm:text-center sm:mt-[0px] sm:ml-[5px] ml-[60px] lg:text-[60px] sm:font-extrabold text-[#fff]">Turning Ideas Into Tangible Results
           </h6>
 
