@@ -14,12 +14,10 @@ const HouseTechnology = () => {
         <div className="bg-[#000213] sm:grid sm:px-2 sm:grid-cols-1 grid grid-cols-2 items-center lg:px-10 gap-x-24 px-48">
           <div>
             <p className="sm:text-[30px] md:text-[60px] text-[80px] font-black sm:text-center sm:mt-[40px] mt-[60px] sm:ml-[15px] text-white leading-none">
-              In House Technology
+              Drive Revenue Success
             </p>
             <p className="sm:text-[16px] lg:text-[17px] sm:text-center text-2xl sm:ml-[15px] text-white mt-11">
-              Choose Expobird as your digital marketing agency and propel your
-              business to new heights with our award-winning digital marketing
-              services and proprietary technology platform.
+              At Digi Expo, we have expertise in providing the best digital marketing solutions that will help your business maximize its revenue growth. Let us help you take your business to your dream result with our result-oriented digital solutions.
             </p>
           </div>
           <div>
@@ -45,30 +43,25 @@ const HouseTechnology = () => {
             </div>
             <div>
               <p className="sm:text-[30px] md:text-[60px] text-[80px] font-black mt-[40px] lg:text-[60px] sm:text-center text-white leading-none">
-                In House Technology
+                Pay As You Grow
               </p>
               <p className="sm:text-[16px] lg:text-[20px] sm:text-center text-2xl text-white mt-11">
-                Choose Expobird as your digital marketing agency and propel your
-                business to new heights with our award-winning digital marketing
-                services and proprietary technology platform.
+                Our top digital marketing agency in Dubai believes that data-driven insights are the heart of the full potential of any marketing campaign. Our marketers are experts in utilizing the power of data to generate highly effective, customized strategies that are tailored to meet the unique requirements of each of our clients.
               </p>
             </div>
           </div>
           <div className="max-w-[1200px] mx-auto mt-[30px]">
             <p className="sm:text-[30px] md:text-[60px] text-[80px] font-black text-white text-center">
-              Get Free Seo{" "}
-              <span className="underlined-svg relative">Audit</span>
+              Better discussions, better decisions{" "}
             </p>
             <p className="sm:text-[16px] lg:text-[20px] text-2xl p-1 text-white text-center">
-              Choose Expobird as your digital marketing agency and propel your
-              business to new heights with our award-winning digital marketing
-              services and proprietary technology platform.
+              Whatever your requirement - be it a simple e-commerce website, a complex web application development or a mobile app development, web design or brand design, even if you want a fully grown 360-degree digital marketing company.
             </p>
             <form className="pt-[40px] sm:pb-[50px] pb-[70px] text-center">
               <label className="block">
                 <input
                   type="email"
-                  placeholder="Enter your site here"
+                  placeholder="Your Email Address"
                   className="sm:min-w-[200px] sm:mr-0 lg:min-w-[300px] sm:mb-5 sm:ml-0 rounded-[40px] bg-transparent outline-[#5D6BD9] outline outline-1 border-none py-4 px-9 min-w-[840px] placeholder:text-white placeholder:text-center text-base text-white mr-8"
                 />
                 <button className="text-white text-[20px] lg:mt-10 sm:mt-[15px] bg-[#7B41F9] rounded-[70px] py-4 px-6 font-semibold">
